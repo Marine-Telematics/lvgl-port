@@ -1,0 +1,8 @@
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void flushcb(lv_display_t*, const lv_area_t*, uint8_t*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:109:16: warning: unused variable 'panel_handle' [-Wunused-variable]
+  109 |     const auto panel_handle =
+      |                ^~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:282:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  282 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~

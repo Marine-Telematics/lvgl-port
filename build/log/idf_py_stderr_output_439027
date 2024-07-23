@@ -1,0 +1,21 @@
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:125:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  125 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:261:15: warning: unused variable 'scr' [-Wunused-variable]
+  261 |     lv_obj_t *scr = lv_obj_create(nullptr);
+      |               ^~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:277:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  277 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+/home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: lvgl-port.elf section `.dram0.bss' will not fit in region `dram0_0_seg'
+/home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: DRAM segment data does not fit.
+/home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: DRAM segment data does not fit.
+/home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: region `dram0_0_seg' overflowed by 15920 bytes
+collect2: error: ld returned 1 exit status
+make[3]: *** [CMakeFiles/lvgl-port.elf.dir/build.make:540: lvgl-port.elf] Error 1
+make[2]: *** [CMakeFiles/Makefile2:2103: CMakeFiles/lvgl-port.elf.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:2007: CMakeFiles/flash.dir/rule] Error 2
+make: *** [Makefile:299: flash] Error 2

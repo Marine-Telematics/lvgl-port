@@ -1,0 +1,580 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40048839: uart_tx_one_char_uart in ROM
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:126:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  126 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:288:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  288 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40056f81: memcpy in ROM
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:126:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  126 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:288:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  288 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40056f60: memcpy in ROM
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:126:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  126 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:288:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  288 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[0;33mWriting to serial is timing out. Please make sure that your application supports an interactive console and that you have picked the correct console for serial communication.[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:126:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  126 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:286:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  286 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40056f6f: memcpy in ROM
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:126:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  126 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:287:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  287 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40056f6f: memcpy in ROM
+[0m
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:288:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  288 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x4203329b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336b8: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef79: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f345: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb45: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fc9b: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fd99: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff93: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4201925f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046ba7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203329b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336b8: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef79: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f345: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb45: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fc9b: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fd99: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff93: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4201925f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046ba7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203329b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336b8: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef79: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f345: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb45: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fc9b: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fd99: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff93: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4201925f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046ba7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203329b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336b8: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef79: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f345: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb45: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fc9b: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fd99: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff93: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4201925f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046ba7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203329b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336b8: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef79: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f345: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb45: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fc9b: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fd99: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff93: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4201925f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046ba7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203329b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336b8: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef79: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f345: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb45: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fc9b: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fd99: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff93: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4201925f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046ba7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203329b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336b8: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef79: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f345: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb45: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fc9b: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fd99: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff93: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4201925f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046ba7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203329b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336b8: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef79: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f345: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb45: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fc9b: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fd99: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff93: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4201925f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046ba7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203329b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336b8: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef79: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f345: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb45: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fc9b: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fd99: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff93: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4201925f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046ba7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203329b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336b8: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef79: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f345: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb45: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fc9b: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fd99: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff93: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4201925f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046ba7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203329b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336b8: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef79: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f345: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb45: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fc9b: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fd99: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff93: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4201925f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046ba7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203329b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336b8: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef79: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f345: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb45: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fc9b: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fd99: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff93: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4201925f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046ba7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203329b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336b8: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef79: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f345: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb45: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fc9b: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fd99: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff93: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4201925f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046ba7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203329b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336b8: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef79: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f345: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb45: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fc9b: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fd99: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff93: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4201925f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046ba7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203329b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336b8: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef79: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f345: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb45: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fc9b: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fd99: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff93: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4201925f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046ba7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203329b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336b8: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef79: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f345: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb45: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fc9b: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fd99: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff93: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4201925f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046ba7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203329b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336b8: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef79: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f345: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb45: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fc9b: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fd99: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff93: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4201925f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046ba7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+[0;33m0x420332a3: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336c0: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef81: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f34d: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb4d: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fca3: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fda1: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff9b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191ad: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x42019267: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046baf: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+In file included from /home/yurijn/Documents/lvgl-port/main/main.cpp:8:
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:291:27: error: format '%u' expects argument of type 'unsigned int', but argument 6 has type 'u32' {aka 'long unsigned int'} [-Werror=format=]
+  291 | #define LOG_COLOR(COLOR)  "\033[0;" COLOR "m"
+      |                           ^
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:294:27: note: in expansion of macro 'LOG_COLOR'
+  294 | #define LOG_COLOR_E       LOG_COLOR(LOG_COLOR_RED)
+      |                           ^~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:308:37: note: in expansion of macro 'LOG_COLOR_E'
+  308 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:418:86: note: in expansion of macro 'LOG_FORMAT'
+  418 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:464:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  464 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:362:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  362 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:9: note: in expansion of macro 'ESP_LOGI'
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |         ^~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:291:27: error: format '%u' expects argument of type 'unsigned int', but argument 6 has type 'u32' {aka 'long unsigned int'} [-Werror=format=]
+  291 | #define LOG_COLOR(COLOR)  "\033[0;" COLOR "m"
+      |                           ^
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:295:27: note: in expansion of macro 'LOG_COLOR'
+  295 | #define LOG_COLOR_W       LOG_COLOR(LOG_COLOR_BROWN)
+      |                           ^~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:308:37: note: in expansion of macro 'LOG_COLOR_W'
+  308 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:419:86: note: in expansion of macro 'LOG_FORMAT'
+  419 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:464:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  464 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:362:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  362 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:9: note: in expansion of macro 'ESP_LOGI'
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |         ^~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:1: error: format '%u' expects argument of type 'unsigned int', but argument 6 has type 'u32' {aka 'long unsigned int'} [-Werror=format=]
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |                                       ~
+      |                                       |
+      |                                       u32 {aka long unsigned int}
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:308:59: note: in definition of macro 'LOG_FORMAT'
+  308 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                           ^~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:464:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  464 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:362:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  362 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:9: note: in expansion of macro 'ESP_LOGI'
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |         ^~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:1: error: format '%u' expects argument of type 'unsigned int', but argument 6 has type 'u32' {aka 'long unsigned int'} [-Werror=format=]
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |                                       ~
+      |                                       |
+      |                                       u32 {aka long unsigned int}
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:308:59: note: in definition of macro 'LOG_FORMAT'
+  308 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                           ^~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:464:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  464 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:362:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  362 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:9: note: in expansion of macro 'ESP_LOGI'
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |         ^~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:291:27: error: format '%u' expects argument of type 'unsigned int', but argument 6 has type 'u32' {aka 'long unsigned int'} [-Werror=format=]
+  291 | #define LOG_COLOR(COLOR)  "\033[0;" COLOR "m"
+      |                           ^
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:296:27: note: in expansion of macro 'LOG_COLOR'
+  296 | #define LOG_COLOR_I       LOG_COLOR(LOG_COLOR_GREEN)
+      |                           ^~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:308:37: note: in expansion of macro 'LOG_COLOR_I'
+  308 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:422:86: note: in expansion of macro 'LOG_FORMAT'
+  422 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:464:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  464 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:362:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  362 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:9: note: in expansion of macro 'ESP_LOGI'
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |         ^~~~~~~~
+cc1plus: some warnings being treated as errors
+make[3]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:76: esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj] Error 1
+make[2]: *** [CMakeFiles/Makefile2:4790: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:2007: CMakeFiles/flash.dir/rule] Error 2
+make: *** [Makefile:299: flash] Error 2
+make failed with exit code 2, output of the command is in the /home/yurijn/Documents/lvgl-port/build/log/idf_py_stderr_output_461702 and /home/yurijn/Documents/lvgl-port/build/log/idf_py_stdout_output_461702
+[1;31m--- Build failed[0m
+[1;31m--- Press Ctrl+] to exit monitor.
+--- Press Ctrl+F to build & flash project.
+--- Press Ctrl+A to build & flash app.
+--- Press any other key to resume monitor (resets target).
+[0m
+[0;33m0x4200ef84: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+[0m
+[0;33m0x420332a3: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x420336c0: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200ef81: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x4200f34d: draw_buf_flush at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1029
+0x4200fb4d: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:730
+0x4200fca3: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4200fda1: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4200ff9b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x420191ad: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x42019267: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009172: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:292
+0x42046baf: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+In file included from /home/yurijn/Documents/lvgl-port/main/main.cpp:8:
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:291:27: error: format '%u' expects argument of type 'unsigned int', but argument 6 has type 'u32' {aka 'long unsigned int'} [-Werror=format=]
+  291 | #define LOG_COLOR(COLOR)  "\033[0;" COLOR "m"
+      |                           ^
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:294:27: note: in expansion of macro 'LOG_COLOR'
+  294 | #define LOG_COLOR_E       LOG_COLOR(LOG_COLOR_RED)
+      |                           ^~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:308:37: note: in expansion of macro 'LOG_COLOR_E'
+  308 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:418:86: note: in expansion of macro 'LOG_FORMAT'
+  418 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:464:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  464 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:362:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  362 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:9: note: in expansion of macro 'ESP_LOGI'
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |         ^~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:291:27: error: format '%u' expects argument of type 'unsigned int', but argument 6 has type 'u32' {aka 'long unsigned int'} [-Werror=format=]
+  291 | #define LOG_COLOR(COLOR)  "\033[0;" COLOR "m"
+      |                           ^
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:295:27: note: in expansion of macro 'LOG_COLOR'
+  295 | #define LOG_COLOR_W       LOG_COLOR(LOG_COLOR_BROWN)
+      |                           ^~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:308:37: note: in expansion of macro 'LOG_COLOR_W'
+  308 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:419:86: note: in expansion of macro 'LOG_FORMAT'
+  419 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:464:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  464 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:362:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  362 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:9: note: in expansion of macro 'ESP_LOGI'
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |         ^~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:1: error: format '%u' expects argument of type 'unsigned int', but argument 6 has type 'u32' {aka 'long unsigned int'} [-Werror=format=]
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |                                       ~
+      |                                       |
+      |                                       u32 {aka long unsigned int}
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:308:59: note: in definition of macro 'LOG_FORMAT'
+  308 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                           ^~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:464:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  464 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:362:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  362 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:9: note: in expansion of macro 'ESP_LOGI'
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |         ^~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:1: error: format '%u' expects argument of type 'unsigned int', but argument 6 has type 'u32' {aka 'long unsigned int'} [-Werror=format=]
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |                                       ~
+      |                                       |
+      |                                       u32 {aka long unsigned int}
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:308:59: note: in definition of macro 'LOG_FORMAT'
+  308 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                           ^~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:464:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  464 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:362:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  362 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:9: note: in expansion of macro 'ESP_LOGI'
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |         ^~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:291:27: error: format '%u' expects argument of type 'unsigned int', but argument 6 has type 'u32' {aka 'long unsigned int'} [-Werror=format=]
+  291 | #define LOG_COLOR(COLOR)  "\033[0;" COLOR "m"
+      |                           ^
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:296:27: note: in expansion of macro 'LOG_COLOR'
+  296 | #define LOG_COLOR_I       LOG_COLOR(LOG_COLOR_GREEN)
+      |                           ^~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:308:37: note: in expansion of macro 'LOG_COLOR_I'
+  308 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:422:86: note: in expansion of macro 'LOG_FORMAT'
+  422 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:464:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  464 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:362:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  362 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:9: note: in expansion of macro 'ESP_LOGI'
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |         ^~~~~~~~
+cc1plus: some warnings being treated as errors
+make[3]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:76: esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj] Error 1
+make[2]: *** [CMakeFiles/Makefile2:4790: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:2007: CMakeFiles/flash.dir/rule] Error 2
+make: *** [Makefile:299: flash] Error 2
+make failed with exit code 2, output of the command is in the /home/yurijn/Documents/lvgl-port/build/log/idf_py_stderr_output_462352 and /home/yurijn/Documents/lvgl-port/build/log/idf_py_stdout_output_462352
+[1;31m--- Build failed[0m
+[1;31m--- Press Ctrl+] to exit monitor.
+--- Press Ctrl+F to build & flash project.
+--- Press Ctrl+A to build & flash app.
+--- Press any other key to resume monitor (resets target).
+[0m
+[0m

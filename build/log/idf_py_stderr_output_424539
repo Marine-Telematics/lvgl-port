@@ -1,0 +1,20 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40048839: uart_tx_one_char_uart in ROM
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:125:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  125 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:264:15: warning: unused variable 'scr' [-Wunused-variable]
+  264 |     lv_obj_t *scr = lv_obj_create(nullptr);
+      |               ^~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:280:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  280 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40056f5c: memcpy in ROM
+[0m
+[0m

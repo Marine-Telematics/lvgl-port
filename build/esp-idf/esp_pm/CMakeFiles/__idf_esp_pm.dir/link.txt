@@ -1,0 +1,2 @@
+/home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-ar qc libesp_pm.a CMakeFiles/__idf_esp_pm.dir/pm_locks.c.obj CMakeFiles/__idf_esp_pm.dir/pm_trace.c.obj CMakeFiles/__idf_esp_pm.dir/pm_impl.c.obj
+/home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-ranlib libesp_pm.a

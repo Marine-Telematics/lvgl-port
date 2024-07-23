@@ -1,0 +1,372 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40048839: uart_tx_one_char_uart in ROM
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:125:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  125 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:264:15: warning: unused variable 'scr' [-Wunused-variable]
+  264 |     lv_obj_t *scr = lv_obj_create(nullptr);
+      |               ^~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:280:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  280 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40056f60: memcpy in ROM
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:125:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  125 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:264:15: warning: unused variable 'scr' [-Wunused-variable]
+  264 |     lv_obj_t *scr = lv_obj_create(nullptr);
+      |               ^~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:280:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  280 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40056f5c: memcpy in ROM
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:125:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  125 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:264:15: warning: unused variable 'scr' [-Wunused-variable]
+  264 |     lv_obj_t *scr = lv_obj_create(nullptr);
+      |               ^~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:280:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  280 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x4004883b: uart_tx_one_char_uart in ROM
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:125:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  125 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:261:15: warning: unused variable 'scr' [-Wunused-variable]
+  261 |     lv_obj_t *scr = lv_obj_create(nullptr);
+      |               ^~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:277:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  277 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40056f6f: memcpy in ROM
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:125:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  125 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:261:15: warning: unused variable 'scr' [-Wunused-variable]
+  261 |     lv_obj_t *scr = lv_obj_create(nullptr);
+      |               ^~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:277:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  277 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40048839: uart_tx_one_char_uart in ROM
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:125:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  125 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:261:15: warning: unused variable 'scr' [-Wunused-variable]
+  261 |     lv_obj_t *scr = lv_obj_create(nullptr);
+      |               ^~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:277:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  277 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+/home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: lvgl-port.elf section `.dram0.bss' will not fit in region `dram0_0_seg'
+/home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: DRAM segment data does not fit.
+/home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: DRAM segment data does not fit.
+/home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/13.2.0/../../../../xtensa-esp-elf/bin/ld: region `dram0_0_seg' overflowed by 15920 bytes
+collect2: error: ld returned 1 exit status
+make[3]: *** [CMakeFiles/lvgl-port.elf.dir/build.make:540: lvgl-port.elf] Error 1
+make[2]: *** [CMakeFiles/Makefile2:2103: CMakeFiles/lvgl-port.elf.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:2007: CMakeFiles/flash.dir/rule] Error 2
+make: *** [Makefile:299: flash] Error 2
+make failed with exit code 2, output of the command is in the /home/yurijn/Documents/lvgl-port/build/log/idf_py_stderr_output_439027 and /home/yurijn/Documents/lvgl-port/build/log/idf_py_stdout_output_439027
+[1;31m--- Build failed[0m
+[1;31m--- Press Ctrl+] to exit monitor.
+--- Press Ctrl+F to build & flash project.
+--- Press Ctrl+A to build & flash app.
+--- Press any other key to resume monitor (resets target).
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:125:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  125 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:261:15: warning: unused variable 'scr' [-Wunused-variable]
+  261 |     lv_obj_t *scr = lv_obj_create(nullptr);
+      |               ^~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:277:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  277 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:125:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  125 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:261:15: warning: unused variable 'scr' [-Wunused-variable]
+  261 |     lv_obj_t *scr = lv_obj_create(nullptr);
+      |               ^~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:277:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  277 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40056f6f: memcpy in ROM
+[0m
+[0;33m0x42032d17: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033134: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x420101f6: lv_display_set_buffers at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:420 (discriminator 6)
+0x420090d3: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:253
+0x42009107: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:274
+0x420465cf: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d17: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033134: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x420101f6: lv_display_set_buffers at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:420 (discriminator 6)
+0x420090d3: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:253
+0x42009107: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:274
+0x420465cf: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d17: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033134: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x420101f6: lv_display_set_buffers at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:420 (discriminator 6)
+0x420090d3: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:253
+0x42009107: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:274
+0x420465cf: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d17: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033134: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x420101f6: lv_display_set_buffers at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:420 (discriminator 6)
+0x420090d3: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:253
+0x42009107: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:274
+0x420465cf: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d17: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033134: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x420101f6: lv_display_set_buffers at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:420 (discriminator 6)
+0x420090d3: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:253
+0x42009107: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:274
+0x420465cf: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:125:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  125 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:261:15: warning: unused variable 'scr' [-Wunused-variable]
+  261 |     lv_obj_t *scr = lv_obj_create(nullptr);
+      |               ^~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:277:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  277 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x42032d17: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033134: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x420101f6: lv_display_set_buffers at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:420 (discriminator 6)
+0x420090d3: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:253
+0x42009107: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:274
+0x420465cf: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d17: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033134: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x420101f6: lv_display_set_buffers at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:420 (discriminator 6)
+0x420090d3: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:253
+0x42009107: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:274
+0x420465cf: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d17: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033134: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x420101f6: lv_display_set_buffers at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:420 (discriminator 6)
+0x420090d3: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:253
+0x42009107: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:274
+0x420465cf: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d17: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033134: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x420101f6: lv_display_set_buffers at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:420 (discriminator 6)
+0x420090d3: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:253
+0x42009107: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:274
+0x420465cf: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d17: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033134: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x420101f6: lv_display_set_buffers at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:420 (discriminator 6)
+0x420090d3: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:253
+0x42009107: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:274
+0x420465cf: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d17: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033134: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x420101f6: lv_display_set_buffers at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:420 (discriminator 6)
+0x420090d3: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:253
+0x42009107: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:274
+0x420465cf: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d17: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033134: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x420101f6: lv_display_set_buffers at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:420 (discriminator 6)
+0x420090d3: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:253
+0x42009107: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:274
+0x420465cf: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d17: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033134: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x420101f6: lv_display_set_buffers at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:420 (discriminator 6)
+0x420090d3: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:253
+0x42009107: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:274
+0x420465cf: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:125:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  125 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:262:15: warning: unused variable 'scr' [-Wunused-variable]
+  262 |     lv_obj_t *scr = lv_obj_create(nullptr);
+      |               ^~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:278:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  278 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40045145: ets_sha_process in ROM
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:125:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  125 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:279:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  279 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x42045842: periph_ll_get_rst_en_mask at /home/yurijn/esp-idf-v5.2.2/components/hal/esp32s3/include/hal/clk_gate_ll.h:109
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:125:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  125 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:284:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  284 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40056f6f: memcpy in ROM
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:125:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  125 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:287:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  287 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:125:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  125 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:287:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  287 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x400451d6: ets_sha_update in ROM
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:126:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  126 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:289:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  289 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40048839: uart_tx_one_char_uart in ROM
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:126:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  126 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:289:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  289 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40045101: ets_sha_process in ROM
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:126:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  126 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:291:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  291 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40056f60: memcpy in ROM
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:126:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  126 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:290:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  290 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40056f6f: memcpy in ROM
+[0m
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[1;31mNone[0m
+[0;33mWaiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[0m

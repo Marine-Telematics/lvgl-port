@@ -1,0 +1,805 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40048841: uart_tx_one_char_uart in ROM
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb6d: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:259
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:296
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb61: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:259
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:296
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb70: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:259
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:296
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb61: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:259
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:296
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb70: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:259
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:296
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb7d: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 3)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:259
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:296
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb80: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:259
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:296
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb76: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 3)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:259
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:296
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb6d: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:259
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:296
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb6d: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:259
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:296
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb76: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 3)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:259
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:296
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:256:85: warning: cast between incompatible function types from 'esp_err_t (*)()' {aka 'int (*)()'} to 'lv_st7789_send_cmd_cb_t' {aka 'void (*)(_lv_display_t*, const unsigned char*, unsigned int, const unsigned char*, unsigned int)'} [-Wcast-function-type]
+  256 |     lv_display_t *display = lv_st7789_create(LCD_H_RES, LCD_V_RES, LV_LCD_FLAG_NONE,(lv_st7789_send_cmd_cb_t)  LCDIOINIT, (lv_st7789_send_color_cb_t) my_lcd_send_color);
+      |                                                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:256:123: warning: cast between incompatible function types from 'void (* (*)(lv_display_t*, const uint8_t*, size_t, uint8_t*, size_t))(lv_display_t*, const uint8_t*, size_t, uint8_t*, size_t)' {aka 'void (* (*)(_lv_display_t*, const unsigned char*, unsigned int, unsigned char*, unsigned int))(_lv_display_t*, const unsigned char*, unsigned int, unsigned char*, unsigned int)'} to 'lv_st7789_send_color_cb_t' {aka 'void (*)(_lv_display_t*, const unsigned char*, unsigned int, unsigned char*, unsigned int)'} [-Wcast-function-type]
+  256 |     lv_display_t *display = lv_st7789_create(LCD_H_RES, LCD_V_RES, LV_LCD_FLAG_NONE,(lv_st7789_send_cmd_cb_t)  LCDIOINIT, (lv_st7789_send_color_cb_t) my_lcd_send_color);
+      |                                                                                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:260:38: warning: cast between incompatible function types from 'void (* (*)(lv_display_t*, const lv_area_t*, uint8_t*))(lv_display_t*, const lv_area_t*, uint8_t*)' {aka 'void (* (*)(_lv_display_t*, const lv_area_t*, unsigned char*))(_lv_display_t*, const lv_area_t*, unsigned char*)'} to 'lv_display_flush_cb_t' {aka 'void (*)(_lv_display_t*, const lv_area_t*, unsigned char*)'} [-Wcast-function-type]
+  260 |     lv_display_set_flush_cb(display, (lv_display_flush_cb_t)flushcb);
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0;33m0x40056f60: memcpy in ROM
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb70: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb61: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb78: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 3)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb67: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb78: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 3)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb80: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb61: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb61: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb70: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb78: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 3)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb80: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb61: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb61: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb70: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb78: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 3)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb80: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb61: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb61: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb70: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb78: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 3)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb78: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 3)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb80: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb67: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb82: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb70: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb80: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb80: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb70: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb80: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb67: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb61: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb78: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 3)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb70: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb80: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb80: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb82: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb70: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb85: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb78: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 3)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb70: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb80: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb70: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb70: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb70: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb80: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb80: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb70: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb80: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb67: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb61: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb78: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 3)
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203322b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033648: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb70: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x420290d9: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:188
+0x4202916d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a20d: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009133: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:256
+0x4200917f: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:293
+0x42046b83: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:249:85: warning: cast between incompatible function types from 'esp_err_t (*)()' {aka 'int (*)()'} to 'lv_st7789_send_cmd_cb_t' {aka 'void (*)(_lv_display_t*, const unsigned char*, unsigned int, const unsigned char*, unsigned int)'} [-Wcast-function-type]
+  249 |     lv_display_t *display = lv_st7789_create(LCD_H_RES, LCD_V_RES, LV_LCD_FLAG_NONE,(lv_st7789_send_cmd_cb_t)  LCDIOINIT, (lv_st7789_send_color_cb_t) my_lcd_send_color);
+      |                                                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:249:123: warning: cast between incompatible function types from 'void (* (*)(lv_display_t*, const uint8_t*, size_t, uint8_t*, size_t))(lv_display_t*, const uint8_t*, size_t, uint8_t*, size_t)' {aka 'void (* (*)(_lv_display_t*, const unsigned char*, unsigned int, unsigned char*, unsigned int))(_lv_display_t*, const unsigned char*, unsigned int, unsigned char*, unsigned int)'} to 'lv_st7789_send_color_cb_t' {aka 'void (*)(_lv_display_t*, const unsigned char*, unsigned int, unsigned char*, unsigned int)'} [-Wcast-function-type]
+  249 |     lv_display_t *display = lv_st7789_create(LCD_H_RES, LCD_V_RES, LV_LCD_FLAG_NONE,(lv_st7789_send_cmd_cb_t)  LCDIOINIT, (lv_st7789_send_color_cb_t) my_lcd_send_color);
+      |                                                                                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:253:38: warning: cast between incompatible function types from 'void (* (*)(lv_display_t*, const lv_area_t*, uint8_t*))(lv_display_t*, const lv_area_t*, uint8_t*)' {aka 'void (* (*)(_lv_display_t*, const lv_area_t*, unsigned char*))(_lv_display_t*, const lv_area_t*, unsigned char*)'} to 'lv_display_flush_cb_t' {aka 'void (*)(_lv_display_t*, const lv_area_t*, unsigned char*)'} [-Wcast-function-type]
+  253 |     lv_display_set_flush_cb(display, (lv_display_flush_cb_t)flushcb);
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: At global scope:
+/home/yurijn/Documents/lvgl-port/main/main.cpp:280:20: error: expected unqualified-id before string constant
+  280 | [[noreturn]]extern "C" void app_main(void)
+      |                    ^~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void loop(void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:109:1: warning: 'noreturn' function does return
+  109 | }
+      | ^
+make[3]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:76: esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj] Error 1
+make[2]: *** [CMakeFiles/Makefile2:4790: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:2007: CMakeFiles/flash.dir/rule] Error 2
+make: *** [Makefile:299: flash] Error 2
+make failed with exit code 2, output of the command is in the /home/yurijn/Documents/lvgl-port/build/log/idf_py_stderr_output_365301 and /home/yurijn/Documents/lvgl-port/build/log/idf_py_stdout_output_365301
+[1;31m--- Build failed[0m
+[1;31m--- Press Ctrl+] to exit monitor.
+--- Press Ctrl+F to build & flash project.
+--- Press Ctrl+A to build & flash app.
+--- Press any other key to resume monitor (resets target).
+[0m
+[0m

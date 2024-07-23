@@ -1,0 +1,23 @@
+esp-idf/hal/CMakeFiles/__idf_hal.dir/brownout_hal.c.obj: \
+ /home/yurijn/esp-idf-v5.2.2/components/hal/brownout_hal.c \
+ /home/yurijn/esp-idf-v5.2.2/components/hal/esp32s3/include/hal/brownout_ll.h \
+ /home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stdbool.h \
+ /home/yurijn/esp-idf-v5.2.2/components/soc/esp32s3/include/soc/rtc_cntl_struct.h \
+ /home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stdint.h \
+ /home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/stdint.h \
+ /home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/machine/_default_types.h \
+ /home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/sys/features.h \
+ /home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/_newlib_version.h \
+ /home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/sys/_intsup.h \
+ /home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/sys/_stdint.h \
+ /home/yurijn/esp-idf-v5.2.2/components/hal/platform_port/include/hal/regi2c_ctrl.h \
+ /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/include/esp_private/regi2c_ctrl.h \
+ /home/yurijn/Documents/lvgl-port/build/config/sdkconfig.h \
+ /home/yurijn/esp-idf-v5.2.2/components/esp_rom/include/esp_rom_regi2c.h \
+ /home/yurijn/esp-idf-v5.2.2/components/soc/esp32s3/include/soc/regi2c_defs.h \
+ /home/yurijn/esp-idf-v5.2.2/components/esp_common/include/esp_bit_defs.h \
+ /home/yurijn/esp-idf-v5.2.2/components/soc/esp32s3/include/soc/regi2c_brownout.h \
+ /home/yurijn/esp-idf-v5.2.2/components/hal/include/hal/brownout_hal.h \
+ /home/yurijn/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stddef.h \
+ /home/yurijn/esp-idf-v5.2.2/components/soc/esp32s3/include/soc/soc_caps.h \
+ /home/yurijn/esp-idf-v5.2.2/components/soc/esp32s3/include/soc/mpu_caps.h

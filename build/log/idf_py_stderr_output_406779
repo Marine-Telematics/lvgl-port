@@ -1,0 +1,124 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4037d63e: esp_cpu_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/cpu.c:145
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:266:15: warning: unused variable 'scr' [-Wunused-variable]
+  266 |     lv_obj_t *scr = lv_obj_create(nullptr);
+      |               ^~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:282:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  282 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x42002a25: uart_ll_get_txfifo_len at /home/yurijn/esp-idf-v5.2.2/components/hal/esp32s3/include/hal/uart_ll.h:387
+ (inlined by) panic_print_char_uart at /home/yurijn/esp-idf-v5.2.2/components/esp_system/panic.c:88
+[0m
+[0;33m0x4204228c: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+[0m
+[0;33m0x42042289: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+0x42008eb9: ntfyFlushReady(esp_lcd_panel_io_t*, esp_lcd_panel_io_event_data_t*, void*) at /home/yurijn/Documents/lvgl-port/main/main.cpp:123
+0x4037b26a: lcd_default_isr_handler at /home/yurijn/esp-idf-v5.2.2/components/esp_lcd/src/esp_lcd_panel_io_i80.c:676
+0x403764cd: shared_intr_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/intr_alloc.c:445
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4037d63b: xt_utils_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/cpu.c:132
+0x420037d2: esp_vApplicationIdleHook at /home/yurijn/esp-idf-v5.2.2/components/esp_system/freertos_hooks.c:59
+0x40380c31: prvIdleTask at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:4307 (discriminator 1)
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a2c: esp_restart_noos at /home/yurijn/esp-idf-v5.2.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4204228c: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+[0m
+[0;33m0x42042289: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+0x42008eb9: ntfyFlushReady(esp_lcd_panel_io_t*, esp_lcd_panel_io_event_data_t*, void*) at /home/yurijn/Documents/lvgl-port/main/main.cpp:123
+0x4037b26a: lcd_default_isr_handler at /home/yurijn/esp-idf-v5.2.2/components/esp_lcd/src/esp_lcd_panel_io_i80.c:676
+0x403764cd: shared_intr_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/intr_alloc.c:445
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4037d63b: xt_utils_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/cpu.c:132
+0x420037d2: esp_vApplicationIdleHook at /home/yurijn/esp-idf-v5.2.2/components/esp_system/freertos_hooks.c:59
+0x40380c31: prvIdleTask at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:4307 (discriminator 1)
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a2c: esp_restart_noos at /home/yurijn/esp-idf-v5.2.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4204228c: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+[0m
+[0;33m0x42042289: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+0x42008eb9: ntfyFlushReady(esp_lcd_panel_io_t*, esp_lcd_panel_io_event_data_t*, void*) at /home/yurijn/Documents/lvgl-port/main/main.cpp:123
+0x4037b26a: lcd_default_isr_handler at /home/yurijn/esp-idf-v5.2.2/components/esp_lcd/src/esp_lcd_panel_io_i80.c:676
+0x403764cd: shared_intr_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/intr_alloc.c:445
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4037d63b: xt_utils_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/cpu.c:132
+0x420037d2: esp_vApplicationIdleHook at /home/yurijn/esp-idf-v5.2.2/components/esp_system/freertos_hooks.c:59
+0x40380c31: prvIdleTask at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:4307 (discriminator 1)
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a2c: esp_restart_noos at /home/yurijn/esp-idf-v5.2.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4204228c: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+[0m
+[0;33m0x42042289: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+0x42008eb9: ntfyFlushReady(esp_lcd_panel_io_t*, esp_lcd_panel_io_event_data_t*, void*) at /home/yurijn/Documents/lvgl-port/main/main.cpp:123
+0x4037b26a: lcd_default_isr_handler at /home/yurijn/esp-idf-v5.2.2/components/esp_lcd/src/esp_lcd_panel_io_i80.c:676
+0x403764cd: shared_intr_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/intr_alloc.c:445
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4037d63b: xt_utils_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/cpu.c:132
+0x420037d2: esp_vApplicationIdleHook at /home/yurijn/esp-idf-v5.2.2/components/esp_system/freertos_hooks.c:59
+0x40380c31: prvIdleTask at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:4307 (discriminator 1)
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a2c: esp_restart_noos at /home/yurijn/esp-idf-v5.2.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4204228c: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+[0m
+[0;33m0x42042289: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+0x42008eb9: ntfyFlushReady(esp_lcd_panel_io_t*, esp_lcd_panel_io_event_data_t*, void*) at /home/yurijn/Documents/lvgl-port/main/main.cpp:123
+0x4037b26a: lcd_default_isr_handler at /home/yurijn/esp-idf-v5.2.2/components/esp_lcd/src/esp_lcd_panel_io_i80.c:676
+0x403764cd: shared_intr_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/intr_alloc.c:445
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4037d63b: xt_utils_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/cpu.c:132
+0x420037d2: esp_vApplicationIdleHook at /home/yurijn/esp-idf-v5.2.2/components/esp_system/freertos_hooks.c:59
+0x40380c31: prvIdleTask at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:4307 (discriminator 1)
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a2c: esp_restart_noos at /home/yurijn/esp-idf-v5.2.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4204228c: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+[0m
+[0;33m0x42042289: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+0x42008eb9: ntfyFlushReady(esp_lcd_panel_io_t*, esp_lcd_panel_io_event_data_t*, void*) at /home/yurijn/Documents/lvgl-port/main/main.cpp:123
+0x4037b26a: lcd_default_isr_handler at /home/yurijn/esp-idf-v5.2.2/components/esp_lcd/src/esp_lcd_panel_io_i80.c:676
+0x403764cd: shared_intr_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/intr_alloc.c:445
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4037d63b: xt_utils_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/cpu.c:132
+0x420037d2: esp_vApplicationIdleHook at /home/yurijn/esp-idf-v5.2.2/components/esp_system/freertos_hooks.c:59
+0x40380c31: prvIdleTask at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:4307 (discriminator 1)
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a2c: esp_restart_noos at /home/yurijn/esp-idf-v5.2.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4204228c: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+[0m
+[0;33m0x42042289: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+0x42008eb9: ntfyFlushReady(esp_lcd_panel_io_t*, esp_lcd_panel_io_event_data_t*, void*) at /home/yurijn/Documents/lvgl-port/main/main.cpp:123
+0x4037b26a: lcd_default_isr_handler at /home/yurijn/esp-idf-v5.2.2/components/esp_lcd/src/esp_lcd_panel_io_i80.c:676
+0x403764cd: shared_intr_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/intr_alloc.c:445
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4037d63b: xt_utils_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/cpu.c:132
+0x420037d2: esp_vApplicationIdleHook at /home/yurijn/esp-idf-v5.2.2/components/esp_system/freertos_hooks.c:59
+0x40380c31: prvIdleTask at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:4307 (discriminator 1)
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a2c: esp_restart_noos at /home/yurijn/esp-idf-v5.2.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x4204228c: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+[0m
+[0m

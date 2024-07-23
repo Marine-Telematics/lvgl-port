@@ -1,0 +1,46 @@
+In file included from /home/yurijn/Documents/lvgl-port/components/lvgl/src/osal/lv_freertos.c:20:
+/home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/include/freertos/atomic.h:402:34: warning: 'Atomic_XOR_u32' defined but not used [-Wunused-function]
+  402 | static portFORCE_INLINE uint32_t Atomic_XOR_u32( uint32_t volatile * pulDestination,
+      |                                  ^~~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/include/freertos/atomic.h:375:34: warning: 'Atomic_NAND_u32' defined but not used [-Wunused-function]
+  375 | static portFORCE_INLINE uint32_t Atomic_NAND_u32( uint32_t volatile * pulDestination,
+      |                                  ^~~~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/include/freertos/atomic.h:348:34: warning: 'Atomic_AND_u32' defined but not used [-Wunused-function]
+  348 | static portFORCE_INLINE uint32_t Atomic_AND_u32( uint32_t volatile * pulDestination,
+      |                                  ^~~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/include/freertos/atomic.h:321:34: warning: 'Atomic_OR_u32' defined but not used [-Wunused-function]
+  321 | static portFORCE_INLINE uint32_t Atomic_OR_u32( uint32_t volatile * pulDestination,
+      |                                  ^~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/include/freertos/atomic.h:294:34: warning: 'Atomic_Decrement_u32' defined but not used [-Wunused-function]
+  294 | static portFORCE_INLINE uint32_t Atomic_Decrement_u32( uint32_t volatile * pulAddend )
+      |                                  ^~~~~~~~~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/include/freertos/atomic.h:269:34: warning: 'Atomic_Increment_u32' defined but not used [-Wunused-function]
+  269 | static portFORCE_INLINE uint32_t Atomic_Increment_u32( uint32_t volatile * pulAddend )
+      |                                  ^~~~~~~~~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/include/freertos/atomic.h:243:34: warning: 'Atomic_Subtract_u32' defined but not used [-Wunused-function]
+  243 | static portFORCE_INLINE uint32_t Atomic_Subtract_u32( uint32_t volatile * pulAddend,
+      |                                  ^~~~~~~~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/include/freertos/atomic.h:215:34: warning: 'Atomic_Add_u32' defined but not used [-Wunused-function]
+  215 | static portFORCE_INLINE uint32_t Atomic_Add_u32( uint32_t volatile * pulAddend,
+      |                                  ^~~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/include/freertos/atomic.h:182:34: warning: 'Atomic_CompareAndSwapPointers_p32' defined but not used [-Wunused-function]
+  182 | static portFORCE_INLINE uint32_t Atomic_CompareAndSwapPointers_p32( void * volatile * ppvDestination,
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/include/freertos/atomic.h:150:32: warning: 'Atomic_SwapPointers_p32' defined but not used [-Wunused-function]
+  150 | static portFORCE_INLINE void * Atomic_SwapPointers_p32( void * volatile * ppvDestination,
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/include/freertos/atomic.h:114:34: warning: 'Atomic_CompareAndSwap_u32' defined but not used [-Wunused-function]
+  114 | static portFORCE_INLINE uint32_t Atomic_CompareAndSwap_u32( uint32_t volatile * pulDestination,
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:125:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  125 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:264:15: warning: unused variable 'scr' [-Wunused-variable]
+  264 |     lv_obj_t *scr = lv_obj_create(nullptr);
+      |               ^~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:280:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  280 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~

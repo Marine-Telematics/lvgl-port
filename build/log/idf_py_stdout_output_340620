@@ -1,0 +1,13 @@
+Total sizes:
+Used static IRAM:   16383 bytes (      1 remain, 100.0% used)
+      .text size:   15356 bytes
+   .vectors size:    1027 bytes
+Used stat D/IRAM:  361655 bytes ( -15799 remain, 104.6% used) Overflow detected! You can run idf.py size-files for more information.
+      .data size:   11556 bytes
+      .bss  size:  285952 bytes
+      .text size:   64147 bytes
+Used Flash size :  374491 bytes
+           .text:  293099 bytes
+         .rodata:   81136 bytes
+Total image size:  466577 bytes (.bin may be padded larger)
+Built target size

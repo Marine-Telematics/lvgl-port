@@ -1,0 +1,8 @@
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:267:15: warning: unused variable 'scr' [-Wunused-variable]
+  267 |     lv_obj_t *scr = lv_obj_create(nullptr);
+      |               ^~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:283:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  283 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~

@@ -1,0 +1,4 @@
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:279:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  279 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~

@@ -1,0 +1,104 @@
+In file included from /home/yurijn/Documents/lvgl-port/main/main.cpp:8:
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:291:27: error: format '%u' expects argument of type 'unsigned int', but argument 6 has type 'u32' {aka 'long unsigned int'} [-Werror=format=]
+  291 | #define LOG_COLOR(COLOR)  "\033[0;" COLOR "m"
+      |                           ^
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:294:27: note: in expansion of macro 'LOG_COLOR'
+  294 | #define LOG_COLOR_E       LOG_COLOR(LOG_COLOR_RED)
+      |                           ^~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:308:37: note: in expansion of macro 'LOG_COLOR_E'
+  308 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:418:86: note: in expansion of macro 'LOG_FORMAT'
+  418 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:464:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  464 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:362:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  362 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:9: note: in expansion of macro 'ESP_LOGI'
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |         ^~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:291:27: error: format '%u' expects argument of type 'unsigned int', but argument 6 has type 'u32' {aka 'long unsigned int'} [-Werror=format=]
+  291 | #define LOG_COLOR(COLOR)  "\033[0;" COLOR "m"
+      |                           ^
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:295:27: note: in expansion of macro 'LOG_COLOR'
+  295 | #define LOG_COLOR_W       LOG_COLOR(LOG_COLOR_BROWN)
+      |                           ^~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:308:37: note: in expansion of macro 'LOG_COLOR_W'
+  308 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:419:86: note: in expansion of macro 'LOG_FORMAT'
+  419 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:464:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  464 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:362:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  362 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:9: note: in expansion of macro 'ESP_LOGI'
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |         ^~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:1: error: format '%u' expects argument of type 'unsigned int', but argument 6 has type 'u32' {aka 'long unsigned int'} [-Werror=format=]
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |                                       ~
+      |                                       |
+      |                                       u32 {aka long unsigned int}
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:308:59: note: in definition of macro 'LOG_FORMAT'
+  308 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                           ^~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:464:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  464 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:362:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  362 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:9: note: in expansion of macro 'ESP_LOGI'
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |         ^~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:1: error: format '%u' expects argument of type 'unsigned int', but argument 6 has type 'u32' {aka 'long unsigned int'} [-Werror=format=]
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |                                       ~
+      |                                       |
+      |                                       u32 {aka long unsigned int}
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:308:59: note: in definition of macro 'LOG_FORMAT'
+  308 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                           ^~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:464:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  464 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:362:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  362 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:9: note: in expansion of macro 'ESP_LOGI'
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |         ^~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:291:27: error: format '%u' expects argument of type 'unsigned int', but argument 6 has type 'u32' {aka 'long unsigned int'} [-Werror=format=]
+  291 | #define LOG_COLOR(COLOR)  "\033[0;" COLOR "m"
+      |                           ^
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:296:27: note: in expansion of macro 'LOG_COLOR'
+  296 | #define LOG_COLOR_I       LOG_COLOR(LOG_COLOR_GREEN)
+      |                           ^~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:308:37: note: in expansion of macro 'LOG_COLOR_I'
+  308 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                     ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:422:86: note: in expansion of macro 'LOG_FORMAT'
+  422 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:464:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  464 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/yurijn/esp-idf-v5.2.2/components/log/include/esp_log.h:362:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  362 | #define ESP_LOGI( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_INFO,    tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp:293:9: note: in expansion of macro 'ESP_LOGI'
+  293 |         ESP_LOGI(TAG, "deltime [%u]", del_time);
+      |         ^~~~~~~~
+cc1plus: some warnings being treated as errors
+make[3]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:76: esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj] Error 1
+make[2]: *** [CMakeFiles/Makefile2:4790: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:2007: CMakeFiles/flash.dir/rule] Error 2
+make: *** [Makefile:299: flash] Error 2

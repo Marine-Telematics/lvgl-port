@@ -1,0 +1,1917 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40048836: uart_tx_one_char_uart in ROM
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb7c: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:95
+0x42029113: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:196
+0x42029185: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a219: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x42009124: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:249
+0x4200916b: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022278: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022278: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022278: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022278: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022278: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022278: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022278: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022278: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42033243: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033660: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022275: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d36: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f97: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42023095: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202328f: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb5d: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc17: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200916e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:290
+0x42046b9b: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'esp_err_t init()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:247:121: warning: cast between incompatible function types from 'void (* (*)(lv_display_t*, const uint8_t*, size_t, uint8_t*, size_t))(lv_display_t*, const uint8_t*, size_t, uint8_t*, size_t)' {aka 'void (* (*)(_lv_display_t*, const unsigned char*, unsigned int, unsigned char*, unsigned int))(_lv_display_t*, const unsigned char*, unsigned int, unsigned char*, unsigned int)'} to 'lv_st7789_send_color_cb_t' {aka 'void (*)(_lv_display_t*, const unsigned char*, unsigned int, unsigned char*, unsigned int)'} [-Wcast-function-type]
+  247 |     lv_display_t *display = lv_st7789_create(LCD_H_RES, LCD_V_RES, LV_LCD_FLAG_NONE,(lv_st7789_send_cmd_cb_t)  sendcmd, (lv_st7789_send_color_cb_t) my_lcd_send_color);
+      |                                                                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4200fb84: lv_delay_ms at /home/yurijn/Documents/lvgl-port/components/lvgl/src/tick/lv_tick.c:94 (discriminator 1)
+0x4202910b: init at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:196
+0x4202917d: lv_lcd_generic_mipi_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c:69
+0x4200a211: lv_st7789_create at /home/yurijn/Documents/lvgl-port/components/lvgl/src/drivers/display/st7789/lv_st7789.c:87
+0x4200911c: init() at /home/yurijn/Documents/lvgl-port/main/main.cpp:247
+0x42009163: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:276
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202226d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202226d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022270: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022270: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022270: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022270: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022270: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022270: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022270: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022270: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202226d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202226d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022270: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022270: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022270: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202226d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202226d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202226d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x4203323b: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033658: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022270: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022d2e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022f8f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x4202308d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023287: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200bb55: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200bc0f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x42009166: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x42046b93: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+[0;33m0x4004883b: uart_tx_one_char_uart in ROM
+[0m
+[0;33m0x42032d33: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033150: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022063: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b1e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d7f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e7d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023077: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba5f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465e3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d33: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033150: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022063: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b1e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d7f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e7d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023077: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba5f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465e3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d33: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033150: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022063: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b1e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d7f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e7d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023077: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba5f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465e3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d33: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033150: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022063: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b1e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d7f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e7d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023077: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba5f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465e3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d33: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033150: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022063: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b1e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d7f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e7d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023077: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba5f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465e3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d33: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033150: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022063: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b1e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d7f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e7d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023077: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba5f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465e3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d33: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033150: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022063: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b1e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d7f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e7d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023077: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba5f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465e3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d33: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033150: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022063: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b1e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d7f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e7d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023077: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba5f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465e3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d33: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033150: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022063: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b1e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d7f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e7d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023077: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a5: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba5f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465e3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:279:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  279 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40048836: uart_tx_one_char_uart in ROM
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202204d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202204d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022053: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202204d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022053: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202204d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022053: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202204d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022053: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202204d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022053: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202204d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022053: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202204d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022053: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202204d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022053: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202204d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022053: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1084 (discriminator 1)
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202204d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202204d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d23: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033140: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4202204d: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b0e: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d6f: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e6d: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x42023067: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b995: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba4f: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x420090fa: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:283
+0x420465d3: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:282:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  282 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x40056f6f: memcpy in ROM
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x42032d37: task_wdt_timeout_handling at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:441
+0x42033154: task_wdt_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_system/task_wdt/task_wdt.c:515
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x42022061: wait_for_flushing at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:1081
+0x42022b22: refr_area_part at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:678
+0x42022d83: refr_area at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:650
+0x42022e81: refr_invalid_areas at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:566
+0x4202307b: _lv_display_refr_timer at /home/yurijn/Documents/lvgl-port/components/lvgl/src/core/lv_refr.c:374
+0x4200b9a9: lv_timer_exec at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:300 (discriminator 2)
+0x4200ba63: lv_timer_handler at /home/yurijn/Documents/lvgl-port/components/lvgl/src/misc/lv_timer.c:105
+0x4200910e: app_main at /home/yurijn/Documents/lvgl-port/main/main.cpp:286
+0x420465e7: main_task at /home/yurijn/esp-idf-v5.2.2/components/freertos/app_startup.c:208
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mRunning /home/yurijn/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/yurijn/esp-idf-v5.2.2/tools/idf.py flash...[0m
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void flushcb(lv_display_t*, const lv_area_t*, uint8_t*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:109:16: warning: unused variable 'panel_handle' [-Wunused-variable]
+  109 |     const auto panel_handle =
+      |                ^~~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:283:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  283 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~
+[0;33m0x42041e24: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+[0m
+[0;33m0x42041e21: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+0x42008eb1: ntfyFlushReady(esp_lcd_panel_io_t*, esp_lcd_panel_io_event_data_t*, void*) at /home/yurijn/Documents/lvgl-port/main/main.cpp:125
+0x4037b26a: lcd_default_isr_handler at /home/yurijn/esp-idf-v5.2.2/components/esp_lcd/src/esp_lcd_panel_io_i80.c:676
+0x403764cd: shared_intr_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/intr_alloc.c:445
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4037d63b: xt_utils_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/cpu.c:132
+0x420037ce: esp_vApplicationIdleHook at /home/yurijn/esp-idf-v5.2.2/components/esp_system/freertos_hooks.c:59
+0x40380c31: prvIdleTask at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:4307 (discriminator 1)
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a2c: esp_restart_noos at /home/yurijn/esp-idf-v5.2.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42041e24: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+[0m
+[0;33m0x42041e21: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+0x42008eb1: ntfyFlushReady(esp_lcd_panel_io_t*, esp_lcd_panel_io_event_data_t*, void*) at /home/yurijn/Documents/lvgl-port/main/main.cpp:125
+0x4037b26a: lcd_default_isr_handler at /home/yurijn/esp-idf-v5.2.2/components/esp_lcd/src/esp_lcd_panel_io_i80.c:676
+0x403764cd: shared_intr_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/intr_alloc.c:445
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4037d63b: xt_utils_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/cpu.c:132
+0x420037ce: esp_vApplicationIdleHook at /home/yurijn/esp-idf-v5.2.2/components/esp_system/freertos_hooks.c:59
+0x40380c31: prvIdleTask at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:4307 (discriminator 1)
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a2c: esp_restart_noos at /home/yurijn/esp-idf-v5.2.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42041e24: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+[0m
+[0;33m0x42041e21: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+0x42008eb1: ntfyFlushReady(esp_lcd_panel_io_t*, esp_lcd_panel_io_event_data_t*, void*) at /home/yurijn/Documents/lvgl-port/main/main.cpp:125
+0x4037b26a: lcd_default_isr_handler at /home/yurijn/esp-idf-v5.2.2/components/esp_lcd/src/esp_lcd_panel_io_i80.c:676
+0x403764cd: shared_intr_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/intr_alloc.c:445
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4037d63b: xt_utils_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/cpu.c:132
+0x420037ce: esp_vApplicationIdleHook at /home/yurijn/esp-idf-v5.2.2/components/esp_system/freertos_hooks.c:59
+0x40380c31: prvIdleTask at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:4307 (discriminator 1)
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a2c: esp_restart_noos at /home/yurijn/esp-idf-v5.2.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42041e24: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+[0m
+[0;33m0x42041e21: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+0x42008eb1: ntfyFlushReady(esp_lcd_panel_io_t*, esp_lcd_panel_io_event_data_t*, void*) at /home/yurijn/Documents/lvgl-port/main/main.cpp:125
+0x4037b26a: lcd_default_isr_handler at /home/yurijn/esp-idf-v5.2.2/components/esp_lcd/src/esp_lcd_panel_io_i80.c:676
+0x403764cd: shared_intr_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/intr_alloc.c:445
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4037d63b: xt_utils_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/cpu.c:132
+0x420037ce: esp_vApplicationIdleHook at /home/yurijn/esp-idf-v5.2.2/components/esp_system/freertos_hooks.c:59
+0x40380c31: prvIdleTask at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:4307 (discriminator 1)
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a2c: esp_restart_noos at /home/yurijn/esp-idf-v5.2.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42041e24: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+[0m
+[0;33m0x42041e21: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+0x42008eb1: ntfyFlushReady(esp_lcd_panel_io_t*, esp_lcd_panel_io_event_data_t*, void*) at /home/yurijn/Documents/lvgl-port/main/main.cpp:125
+0x4037b26a: lcd_default_isr_handler at /home/yurijn/esp-idf-v5.2.2/components/esp_lcd/src/esp_lcd_panel_io_i80.c:676
+0x403764cd: shared_intr_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/intr_alloc.c:445
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4037d63b: xt_utils_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/cpu.c:132
+0x420037ce: esp_vApplicationIdleHook at /home/yurijn/esp-idf-v5.2.2/components/esp_system/freertos_hooks.c:59
+0x40380c31: prvIdleTask at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:4307 (discriminator 1)
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a2c: esp_restart_noos at /home/yurijn/esp-idf-v5.2.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42041e24: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+[0m
+[0;33m0x42041e21: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+0x42008eb1: ntfyFlushReady(esp_lcd_panel_io_t*, esp_lcd_panel_io_event_data_t*, void*) at /home/yurijn/Documents/lvgl-port/main/main.cpp:125
+0x4037b26a: lcd_default_isr_handler at /home/yurijn/esp-idf-v5.2.2/components/esp_lcd/src/esp_lcd_panel_io_i80.c:676
+0x403764cd: shared_intr_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/intr_alloc.c:445
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4037d63b: xt_utils_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/cpu.c:132
+0x420037ce: esp_vApplicationIdleHook at /home/yurijn/esp-idf-v5.2.2/components/esp_system/freertos_hooks.c:59
+0x40380c31: prvIdleTask at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:4307 (discriminator 1)
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a2c: esp_restart_noos at /home/yurijn/esp-idf-v5.2.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42041e24: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+[0m
+[0;33m0x42041e21: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+0x42008eb1: ntfyFlushReady(esp_lcd_panel_io_t*, esp_lcd_panel_io_event_data_t*, void*) at /home/yurijn/Documents/lvgl-port/main/main.cpp:125
+0x4037b26a: lcd_default_isr_handler at /home/yurijn/esp-idf-v5.2.2/components/esp_lcd/src/esp_lcd_panel_io_i80.c:676
+0x403764cd: shared_intr_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/intr_alloc.c:445
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4037d63b: xt_utils_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/cpu.c:132
+0x420037ce: esp_vApplicationIdleHook at /home/yurijn/esp-idf-v5.2.2/components/esp_system/freertos_hooks.c:59
+0x40380c31: prvIdleTask at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:4307 (discriminator 1)
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a2c: esp_restart_noos at /home/yurijn/esp-idf-v5.2.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42041e24: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+[0m
+[0;33m0x42041e21: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+0x42008eb1: ntfyFlushReady(esp_lcd_panel_io_t*, esp_lcd_panel_io_event_data_t*, void*) at /home/yurijn/Documents/lvgl-port/main/main.cpp:125
+0x4037b26a: lcd_default_isr_handler at /home/yurijn/esp-idf-v5.2.2/components/esp_lcd/src/esp_lcd_panel_io_i80.c:676
+0x403764cd: shared_intr_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/intr_alloc.c:445
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4037d63b: xt_utils_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/cpu.c:132
+0x420037ce: esp_vApplicationIdleHook at /home/yurijn/esp-idf-v5.2.2/components/esp_system/freertos_hooks.c:59
+0x40380c31: prvIdleTask at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:4307 (discriminator 1)
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a2c: esp_restart_noos at /home/yurijn/esp-idf-v5.2.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0;33m0x42041e24: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+[0m
+[0;33m0x42041e21: lv_display_flush_ready at /home/yurijn/Documents/lvgl-port/components/lvgl/src/display/lv_display.c:490
+0x42008eb1: ntfyFlushReady(esp_lcd_panel_io_t*, esp_lcd_panel_io_event_data_t*, void*) at /home/yurijn/Documents/lvgl-port/main/main.cpp:125
+0x4037b26a: lcd_default_isr_handler at /home/yurijn/esp-idf-v5.2.2/components/esp_lcd/src/esp_lcd_panel_io_i80.c:676
+0x403764cd: shared_intr_isr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/intr_alloc.c:445
+0x4037b82d: _xt_lowint1 at /home/yurijn/esp-idf-v5.2.2/components/xtensa/xtensa_vectors.S:1240
+0x4037d63b: xt_utils_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/yurijn/esp-idf-v5.2.2/components/esp_hw_support/cpu.c:132
+0x420037ce: esp_vApplicationIdleHook at /home/yurijn/esp-idf-v5.2.2/components/esp_system/freertos_hooks.c:59
+0x40380c31: prvIdleTask at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/tasks.c:4307 (discriminator 1)
+0x4037fced: vPortTaskWrapper at /home/yurijn/esp-idf-v5.2.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375a2c: esp_restart_noos at /home/yurijn/esp-idf-v5.2.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

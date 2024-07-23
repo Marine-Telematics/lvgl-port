@@ -1,0 +1,52 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"/home/yurijn/esp-idf-v5.2.1/components/cxx/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "libgcc_cxx::@fc68b7334ac9a9392d41",
+	"name" : "libgcc_cxx",
+	"paths" : 
+	{
+		"build" : "esp-idf/cxx",
+		"source" : "/home/yurijn/esp-idf-v5.2.1/components/cxx"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "/home/yurijn/Documents/ivs-powerswitch/firmware/main/assets/olney_light_14_full.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "INTERFACE_LIBRARY"
+}

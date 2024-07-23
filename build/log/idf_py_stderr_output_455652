@@ -1,0 +1,8 @@
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'bool ntfyFlushReady(esp_lcd_panel_io_handle_t, esp_lcd_panel_io_event_data_t*, void*)':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:126:11: warning: unused variable 'disp_driver' [-Wunused-variable]
+  126 |     auto *disp_driver = static_cast<lv_display_t*>(user_ctx);
+      |           ^~~~~~~~~~~
+/home/yurijn/Documents/lvgl-port/main/main.cpp: In function 'void app_main()':
+/home/yurijn/Documents/lvgl-port/main/main.cpp:288:28: warning: variable 'del_time' set but not used [-Wunused-but-set-variable]
+  288 |        static u32          del_time                 = 0;
+      |                            ^~~~~~~~

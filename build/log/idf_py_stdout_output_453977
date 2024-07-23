@@ -1,0 +1,2559 @@
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3c05002  lESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xb (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40048839
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2d9c
+entry 0x403c9914
+[0;32mI (26) boot: ESP-IDF v5.2.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jul 19 2024 16:40:09[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (64) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (71) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (86) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c050020 size=13d60h ( 81248) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=00023d88 vaddr=3fc97b00 size=02d24h ( 11556) load[0m
+[0;32mI (116) esp_image: segment 2: paddr=00026ab4 vaddr=40374000 size=09564h ( 38244) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=47394h (291732) map[0m
+[0;32mI (181) esp_image: segment 4: paddr=000773bc vaddr=4037d564 size=0a530h ( 42288) load[0m
+[0;32mI (198) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (198) boot: Disabling RNG early entropy source...[0m
+[0;32mI (210) cpu_start: Multicore app[0m
+[0;32mI (220) cpu_start: Pro cpu start user code[0m
+[0;32mI (220) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (220) cpu_start: Application information:[0m
+[0;32mI (223) cpu_start: Project name:     lvgl-port[0m
+[0;32mI (228) cpu_start: App version:      1[0m
+[0;32mI (232) cpu_start: Compile time:     Jul 19 2024 18:18:00[0m
+[0;32mI (239) cpu_start: ELF file SHA256:  95506d334...[0m
+[0;32mI (244) cpu_start: ESP-IDF:          v5.2.2[0m
+[0;32mI (249) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (253) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (258) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (263) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (270) heap_init: At 3FCBAD30 len 0002E9E0 (186 KiB): RAM[0m
+[0;32mI (276) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (282) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (289) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (296) spi_flash: detected chip: winbond[0m
+[0;32mI (300) spi_flash: flash io: dio[0m
+[0;33mW (303) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (317) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (324) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (331) main_task: Started on CPU0[0m
+[0;32mI (341) main_task: Calling app_main()[0m
+[0;32mI (341) LOL: Initializing the Renderer...[0m
+[0;32mI (341) LOL: LVGL version [9.1][0m
+[0;32mI (351) gpio: GPIO[5]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[Warn]	(0.000, +0)	 lv_init: Style sanity checks are enabled that uses more RAM lv_init.c:240
+[0;32mI (601) LOL: Renderer Initialized.[0m
+Executing action: flash
+Running make in directory /home/yurijn/Documents/lvgl-port/build
+Executing "make -j 6 flash"...
+[  0%] Built target partition_table_bin
+[  0%] Built target memory.ld
+[  0%] Built target _project_elf_src
+[  0%] Built target custom_bundle
+[  0%] Built target sections.ld.in
+[  0%] Performing build step for 'bootloader'
+[  0%] Built target __idf_esp_https_ota
+[  1%] Built target __idf_esp_http_server
+[  0%] Built target _project_elf_src
+[  3%] Built target __idf_log
+[ 13%] Built target __idf_esp_rom
+[  1%] Built target __idf_esp_http_client
+[ 15%] Built target __idf_esp_common
+[  1%] Built target __idf_tcp_transport
+[  2%] Built target __idf_esp_gdbstub
+[ 23%] Built target __idf_esp_hw_support
+[ 25%] Built target __idf_esp_system
+[  3%] Built target __idf_esp_eth
+[ 34%] Built target __idf_efuse
+[  4%] Built target __idf_esp_adc
+[ 54%] Built target __idf_bootloader_support
+[  5%] Built target __idf_esp-tls
+[ 56%] Built target __idf_esp_bootloader_format
+[  5%] Built target __idf_http_parser
+[ 58%] Built target __idf_spi_flash
+[  5%] Built target __idf_esp_wifi
+[ 64%] Built target __idf_hal
+[  5%] Built target __idf_esp_coex
+[ 67%] Built target __idf_micro-ecc
+[ 90%] Built target __idf_soc
+[ 11%] Built target __idf_wpa_supplicant
+[ 93%] Built target __idf_xtensa
+[ 12%] Built target __idf_esp_netif
+[ 95%] Built target __idf_main
+[ 98%] Built target bootloader.elf
+[100%] Built target gen_project_binary
+[ 19%] Built target __idf_lwip
+[ 19%] Built target __idf_vfs
+Bootloader binary size 0x5250 bytes. 0x2db0 bytes (36%) free.
+[ 20%] Built target __idf_esp_phy
+[100%] Built target bootloader_check_size
+[ 22%] Built target __idf_nvs_flash
+[100%] Built target app
+[ 22%] Built target __idf_esp_event
+[ 23%] No install step for 'bootloader'
+[ 23%] Completed 'bootloader'
+[ 24%] Built target __idf_esp_timer
+[ 24%] Built target bootloader
+[ 24%] Built target __idf_esp_common
+[ 24%] Built target __idf_cxx
+[ 25%] Built target __idf_newlib
+[ 26%] Built target __idf_freertos
+[ 30%] Built target __idf_esp_hw_support
+[ 32%] Built target __idf_soc
+[ 33%] Built target __idf_heap
+[ 33%] Built target __idf_log
+[ 37%] Built target __idf_hal
+[ 38%] Built target __idf_esp_rom
+[ 41%] Built target __idf_esp_system
+[ 42%] Built target __idf_pthread
+[ 44%] Built target __idf_spi_flash
+[ 44%] Built target __idf_app_update
+[ 44%] Built target __idf_esp_partition
+[ 45%] Built target __idf_bootloader_support
+[ 45%] Built target __idf_esp_app_format
+[ 45%] Built target __idf_esp_bootloader_format
+[ 47%] Built target mbedtls
+[ 48%] Built target mbedx509
+[ 55%] Built target mbedcrypto
+[ 55%] Built target p256m
+[ 55%] Built target everest
+[ 56%] Built target __idf_mbedtls
+[ 56%] Built target __idf_esp_pm
+[ 61%] Built target __idf_driver
+[ 61%] Built target __idf_esp_mm
+[ 61%] Built target __idf_efuse
+[ 61%] Built target __idf_esp_ringbuf
+[ 62%] Built target __idf_xtensa
+[ 62%] Built target __idf_unity
+[ 62%] Built target __idf_esp_hid
+[ 62%] Built target __idf_app_trace
+[ 63%] Built target __idf_console
+[ 64%] Built target __idf_esp_lcd
+[ 64%] Built target __idf_protobuf-c
+[ 65%] Built target __idf_espcoredump
+[ 66%] Built target __idf_wear_levelling
+[ 66%] Built target __idf_sdmmc
+[ 66%] Built target __idf_json
+[ 66%] Built target __idf_mqtt
+[ 66%] Built target __idf_nvs_sec_provider
+[ 66%] Built target __idf_perfmon
+[ 67%] Built target __idf_spiffs
+[ 68%] Built target __idf_usb
+[ 69%] Built target __idf_touch_element
+[ 70%] Built target __idf_cmock
+[ 71%] Built target __idf_protocomm
+[ 72%] Built target __idf_fatfs
+[ 97%] Built target __idf_lvgl
+[ 98%] Built target __idf_wifi_provisioning
+[ 98%] Built target __idf_esp_local_ctrl
+[ 98%] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+[ 98%] Linking C static library libmain.a
+[ 98%] Built target __idf_main
+[ 98%] Generating ld/sections.ld
+[ 98%] Built target __ldgen_output_sections.ld
+[100%] Linking CXX executable lvgl-port.elf
+[100%] Built target lvgl-port.elf
+[100%] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/yurijn/Documents/lvgl-port/build/lvgl-port.bin
+[100%] Built target gen_project_binary
+lvgl-port.bin binary size 0x71ea0 bytes. Smallest app partition is 0x177000 bytes. 0x105160 bytes (70%) free.
+[100%] Built target app_check_size
+[100%] Built target app
+esptool.py --chip esp32s3 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 lvgl-port.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyACM0
+Connecting...
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+Crystal is 40MHz
+MAC: 80:65:99:dd:db:18
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x00081fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 21072 bytes to 13053...
+Writing at 0x00000000... (100 %)
+Wrote 21072 bytes (13053 compressed) at 0x00000000 in 0.4 seconds (effective 394.9 kbit/s)...
+Hash of data verified.
+Compressed 466592 bytes to 273514...
+Writing at 0x00010000... (5 %)
+Writing at 0x0001bf10... (11 %)
+Writing at 0x000259b7... (17 %)
+Writing at 0x0002bdc1... (23 %)
+Writing at 0x000321ab... (29 %)
+Writing at 0x0003863c... (35 %)
+Writing at 0x0003e73c... (41 %)
+Writing at 0x00043f29... (47 %)
+Writing at 0x0004985c... (52 %)
+Writing at 0x00050035... (58 %)
+Writing at 0x00055817... (64 %)
+Writing at 0x0005b2fd... (70 %)
+Writing at 0x00061579... (76 %)
+Writing at 0x000676b0... (82 %)
+Writing at 0x0006ef7f... (88 %)
+Writing at 0x00076d7c... (94 %)
+Writing at 0x0007d32e... (100 %)
+Wrote 466592 bytes (273514 compressed) at 0x00010000 in 3.9 seconds (effective 965.9 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 105...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (105 compressed) at 0x00008000 in 0.1 seconds (effective 384.2 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+[100%] Built target flash
+Done
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3c05002ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xb (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40056f81
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2d9c
+entry 0x403c9914
+[0;32mI (26) boot: ESP-IDF v5.2.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jul 19 2024 16:40:09[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (64) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (71) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (86) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c050020 size=13d80h ( 81280) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=00023da8 vaddr=3fc97b00 size=02d24h ( 11556) load[0m
+[0;32mI (116) esp_image: segment 2: paddr=00026ad4 vaddr=40374000 size=09544h ( 38212) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=47900h (293120) map[0m
+[0;32mI (181) esp_image: segment 4: paddr=00077928 vaddr=4037d544 size=0a550h ( 42320) load[0m
+[0;32mI (198) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (199) boot: Disabling RNG early entropy source...[0m
+[0;32mI (210) cpu_start: Multicore app[0m
+[0;32mI (220) cpu_start: Pro cpu start user code[0m
+[0;32mI (220) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (220) cpu_start: Application information:[0m
+[0;32mI (223) cpu_start: Project name:     lvgl-port[0m
+[0;32mI (228) cpu_start: App version:      1[0m
+[0;32mI (233) cpu_start: Compile time:     Jul 19 2024 18:18:00[0m
+[0;32mI (239) cpu_start: ELF file SHA256:  a8b7c7f94...[0m
+[0;32mI (244) cpu_start: ESP-IDF:          v5.2.2[0m
+[0;32mI (249) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (254) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (259) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (263) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (271) heap_init: At 3FCBAD30 len 0002E9E0 (186 KiB): RAM[0m
+[0;32mI (277) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (283) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (289) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (296) spi_flash: detected chip: winbond[0m
+[0;32mI (300) spi_flash: flash io: dio[0m
+[0;33mW (304) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (317) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (324) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (331) main_task: Started on CPU0[0m
+[0;32mI (341) main_task: Calling app_main()[0m
+[0;32mI (341) LOL: Initializing the Renderer...[0m
+[0;32mI (341) LOL: LVGL version [9.1][0m
+[0;32mI (351) gpio: GPIO[5]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[Warn]	(0.000, +0)	 lv_init: Style sanity checks are enabled that uses more RAM lv_init.c:240
+[0;32mI (601) LOL: Renderer Initialized.[0m
+Executing action: flash
+Running make in directory /home/yurijn/Documents/lvgl-port/build
+Executing "make -j 6 flash"...
+[  0%] Built target custom_bundle
+[  0%] Built target sections.ld.in
+[  0%] Built target partition_table_bin
+[  0%] Built target memory.ld
+[  0%] Built target _project_elf_src
+[  0%] Performing build step for 'bootloader'
+[  0%] Built target __idf_esp_https_ota
+[  1%] Built target __idf_esp_http_server
+[  0%] Built target _project_elf_src
+[  3%] Built target __idf_log
+[  1%] Built target __idf_esp_http_client
+[ 13%] Built target __idf_esp_rom
+[  1%] Built target __idf_tcp_transport
+[ 15%] Built target __idf_esp_common
+[  2%] Built target __idf_esp_gdbstub
+[ 23%] Built target __idf_esp_hw_support
+[ 25%] Built target __idf_esp_system
+[  3%] Built target __idf_esp_eth
+[ 34%] Built target __idf_efuse
+[  4%] Built target __idf_esp_adc
+[ 54%] Built target __idf_bootloader_support
+[  5%] Built target __idf_esp-tls
+[ 56%] Built target __idf_esp_bootloader_format
+[  5%] Built target __idf_http_parser
+[ 58%] Built target __idf_spi_flash
+[  5%] Built target __idf_esp_wifi
+[ 64%] Built target __idf_hal
+[  5%] Built target __idf_esp_coex
+[ 67%] Built target __idf_micro-ecc
+[ 90%] Built target __idf_soc
+[ 11%] Built target __idf_wpa_supplicant
+[ 93%] Built target __idf_xtensa
+[ 12%] Built target __idf_esp_netif
+[ 95%] Built target __idf_main
+[ 98%] Built target bootloader.elf
+[ 19%] Built target __idf_lwip
+[100%] Built target gen_project_binary
+[ 19%] Built target __idf_vfs
+Bootloader binary size 0x5250 bytes. 0x2db0 bytes (36%) free.
+[ 20%] Built target __idf_esp_phy
+[100%] Built target bootloader_check_size
+[ 22%] Built target __idf_nvs_flash
+[100%] Built target app
+[ 23%] No install step for 'bootloader'
+[ 23%] Built target __idf_esp_event
+[ 23%] Completed 'bootloader'
+[ 24%] Built target __idf_esp_timer
+[ 24%] Built target bootloader
+[ 24%] Built target __idf_esp_common
+[ 24%] Built target __idf_cxx
+[ 25%] Built target __idf_newlib
+[ 26%] Built target __idf_freertos
+[ 30%] Built target __idf_esp_hw_support
+[ 32%] Built target __idf_soc
+[ 33%] Built target __idf_heap
+[ 33%] Built target __idf_log
+[ 37%] Built target __idf_hal
+[ 38%] Built target __idf_esp_rom
+[ 41%] Built target __idf_esp_system
+[ 42%] Built target __idf_pthread
+[ 44%] Built target __idf_spi_flash
+[ 44%] Built target __idf_app_update
+[ 44%] Built target __idf_esp_partition
+[ 45%] Built target __idf_bootloader_support
+[ 45%] Built target __idf_esp_app_format
+[ 45%] Built target __idf_esp_bootloader_format
+[ 47%] Built target mbedtls
+[ 48%] Built target mbedx509
+[ 55%] Built target mbedcrypto
+[ 55%] Built target p256m
+[ 55%] Built target everest
+[ 56%] Built target __idf_mbedtls
+[ 56%] Built target __idf_esp_pm
+[ 61%] Built target __idf_driver
+[ 61%] Built target __idf_esp_mm
+[ 61%] Built target __idf_efuse
+[ 61%] Built target __idf_esp_ringbuf
+[ 62%] Built target __idf_xtensa
+[ 62%] Built target __idf_app_trace
+[ 62%] Built target __idf_unity
+[ 62%] Built target __idf_esp_hid
+[ 63%] Built target __idf_esp_lcd
+[ 64%] Built target __idf_console
+[ 64%] Built target __idf_protobuf-c
+[ 65%] Built target __idf_wear_levelling
+[ 66%] Built target __idf_espcoredump
+[ 66%] Built target __idf_json
+[ 66%] Built target __idf_sdmmc
+[ 66%] Built target __idf_mqtt
+[ 67%] Built target __idf_spiffs
+[ 67%] Built target __idf_perfmon
+[ 67%] Built target __idf_nvs_sec_provider
+[ 68%] Built target __idf_touch_element
+[ 70%] Built target __idf_fatfs
+[ 70%] Built target __idf_protocomm
+[ 71%] Built target __idf_usb
+[ 72%] Built target __idf_cmock
+[ 97%] Built target __idf_lvgl
+[ 97%] Built target __idf_esp_local_ctrl
+[ 98%] Built target __idf_wifi_provisioning
+[ 98%] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+[ 98%] Linking C static library libmain.a
+[ 98%] Built target __idf_main
+[ 98%] Generating ld/sections.ld
+[ 98%] Built target __ldgen_output_sections.ld
+[100%] Linking CXX executable lvgl-port.elf
+[100%] Built target lvgl-port.elf
+[100%] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/yurijn/Documents/lvgl-port/build/lvgl-port.bin
+[100%] Built target gen_project_binary
+lvgl-port.bin binary size 0x71eb0 bytes. Smallest app partition is 0x177000 bytes. 0x105150 bytes (70%) free.
+[100%] Built target app_check_size
+[100%] Built target app
+esptool.py --chip esp32s3 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 lvgl-port.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyACM0
+Connecting...
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+Crystal is 40MHz
+MAC: 80:65:99:dd:db:18
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x00081fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 21072 bytes to 13053...
+Writing at 0x00000000... (100 %)
+Wrote 21072 bytes (13053 compressed) at 0x00000000 in 0.4 seconds (effective 397.7 kbit/s)...
+Hash of data verified.
+Compressed 466608 bytes to 273529...
+Writing at 0x00010000... (5 %)
+Writing at 0x0001bf0d... (11 %)
+Writing at 0x000259ab... (17 %)
+Writing at 0x0002bda7... (23 %)
+Writing at 0x000321a8... (29 %)
+Writing at 0x00038636... (35 %)
+Writing at 0x0003e72a... (41 %)
+Writing at 0x00043ee5... (47 %)
+Writing at 0x00049846... (52 %)
+Writing at 0x00050022... (58 %)
+Writing at 0x00055809... (64 %)
+Writing at 0x0005b2df... (70 %)
+Writing at 0x00061558... (76 %)
+Writing at 0x000676b0... (82 %)
+Writing at 0x0006ef78... (88 %)
+Writing at 0x00076d75... (94 %)
+Writing at 0x0007d328... (100 %)
+Wrote 466608 bytes (273529 compressed) at 0x00010000 in 3.9 seconds (effective 966.6 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 105...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (105 compressed) at 0x00008000 in 0.1 seconds (effective 379.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+[100%] Built target flash
+Done
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3c05002ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xb (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40056f60
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2d9c
+entry 0x403c9914
+[0;32mI (26) boot: ESP-IDF v5.2.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jul 19 2024 16:40:09[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (64) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (71) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (86) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c050020 size=13d80h ( 81280) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=00023da8 vaddr=3fc97b00 size=02d24h ( 11556) load[0m
+[0;32mI (116) esp_image: segment 2: paddr=00026ad4 vaddr=40374000 size=09544h ( 38212) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=47908h (293128) map[0m
+[0;32mI (181) esp_image: segment 4: paddr=00077930 vaddr=4037d544 size=0a550h ( 42320) load[0m
+[0;32mI (198) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (199) boot: Disabling RNG early entropy source...[0m
+[0;32mI (210) cpu_start: Multicore app[0m
+[0;32mI (220) cpu_start: Pro cpu start user code[0m
+[0;32mI (220) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (220) cpu_start: Application information:[0m
+[0;32mI (223) cpu_start: Project name:     lvgl-port[0m
+[0;32mI (228) cpu_start: App version:      1[0m
+[0;32mI (233) cpu_start: Compile time:     Jul 19 2024 18:18:00[0m
+[0;32mI (239) cpu_start: ELF file SHA256:  5e21abc92...[0m
+[0;32mI (244) cpu_start: ESP-IDF:          v5.2.2[0m
+[0;32mI (249) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (254) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (259) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (263) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (271) heap_init: At 3FCBAD30 len 0002E9E0 (186 KiB): RAM[0m
+[0;32mI (277) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (283) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (289) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (296) spi_flash: detected chip: winbond[0m
+[0;32mI (300) spi_flash: flash io: dio[0m
+[0;33mW (304) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (317) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (324) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (331) main_task: Started on CPU0[0m
+[0;32mI (341) main_task: Calling app_main()[0m
+[0;32mI (341) LOL: Initializing the Renderer...[0m
+[0;32mI (341) LOL: LVGL version [9.1][0m
+[0;32mI (351) gpio: GPIO[5]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[Warn]	(0.000, +0)	 lv_init: Style sanity checks are enabled that uses more RAM lv_init.c:240
+[0;32mI (601) LOL: Renderer Initialized.[0m
+Executing action: flash
+Running make in directory /home/yurijn/Documents/lvgl-port/build
+Executing "make -j 6 flash"...
+[  0%] Built target partition_table_bin
+[  0%] Built target custom_bundle
+[  0%] Built target _project_elf_src
+[  0%] Built target sections.ld.in
+[  0%] Built target memory.ld
+[  0%] Performing build step for 'bootloader'
+[  0%] Built target __idf_esp_https_ota
+[  1%] Built target __idf_esp_http_server
+[  0%] Built target _project_elf_src
+[  3%] Built target __idf_log
+[  1%] Built target __idf_esp_http_client
+[ 13%] Built target __idf_esp_rom
+[ 15%] Built target __idf_esp_common
+[  1%] Built target __idf_tcp_transport
+[ 23%] Built target __idf_esp_hw_support
+[  2%] Built target __idf_esp_gdbstub
+[ 25%] Built target __idf_esp_system
+[  3%] Built target __idf_esp_eth
+[ 34%] Built target __idf_efuse
+[  4%] Built target __idf_esp_adc
+[  5%] Built target __idf_esp-tls
+[ 54%] Built target __idf_bootloader_support
+[  5%] Built target __idf_http_parser
+[ 56%] Built target __idf_esp_bootloader_format
+[  5%] Built target __idf_esp_wifi
+[ 58%] Built target __idf_spi_flash
+[  5%] Built target __idf_esp_coex
+[ 64%] Built target __idf_hal
+[ 67%] Built target __idf_micro-ecc
+[ 11%] Built target __idf_wpa_supplicant
+[ 90%] Built target __idf_soc
+[ 12%] Built target __idf_esp_netif
+[ 93%] Built target __idf_xtensa
+[ 95%] Built target __idf_main
+[ 19%] Built target __idf_lwip
+[ 98%] Built target bootloader.elf
+[ 19%] Built target __idf_vfs
+[100%] Built target gen_project_binary
+[ 20%] Built target __idf_esp_phy
+[ 22%] Built target __idf_nvs_flash
+Bootloader binary size 0x5250 bytes. 0x2db0 bytes (36%) free.
+[ 22%] Built target __idf_esp_event
+[100%] Built target bootloader_check_size
+[ 23%] Built target __idf_esp_timer
+[100%] Built target app
+[ 24%] No install step for 'bootloader'
+[ 24%] Built target __idf_esp_common
+[ 24%] Completed 'bootloader'
+[ 24%] Built target __idf_cxx
+[ 24%] Built target bootloader
+[ 25%] Built target __idf_newlib
+[ 26%] Built target __idf_freertos
+[ 30%] Built target __idf_esp_hw_support
+[ 32%] Built target __idf_soc
+[ 33%] Built target __idf_heap
+[ 33%] Built target __idf_log
+[ 37%] Built target __idf_hal
+[ 38%] Built target __idf_esp_rom
+[ 41%] Built target __idf_esp_system
+[ 42%] Built target __idf_pthread
+[ 44%] Built target __idf_spi_flash
+[ 44%] Built target __idf_app_update
+[ 44%] Built target __idf_esp_partition
+[ 45%] Built target __idf_bootloader_support
+[ 45%] Built target __idf_esp_app_format
+[ 45%] Built target __idf_esp_bootloader_format
+[ 47%] Built target mbedtls
+[ 48%] Built target mbedx509
+[ 55%] Built target mbedcrypto
+[ 55%] Built target p256m
+[ 55%] Built target everest
+[ 56%] Built target __idf_mbedtls
+[ 56%] Built target __idf_esp_pm
+[ 61%] Built target __idf_driver
+[ 61%] Built target __idf_esp_mm
+[ 61%] Built target __idf_efuse
+[ 61%] Built target __idf_esp_ringbuf
+[ 62%] Built target __idf_xtensa
+[ 62%] Built target __idf_app_trace
+[ 62%] Built target __idf_unity
+[ 63%] Built target __idf_console
+[ 64%] Built target __idf_esp_hid
+[ 64%] Built target __idf_esp_lcd
+[ 64%] Built target __idf_protobuf-c
+[ 65%] Built target __idf_espcoredump
+[ 65%] Built target __idf_sdmmc
+[ 66%] Built target __idf_wear_levelling
+[ 66%] Built target __idf_json
+[ 66%] Built target __idf_mqtt
+[ 66%] Built target __idf_nvs_sec_provider
+[ 67%] Built target __idf_spiffs
+[ 67%] Built target __idf_perfmon
+[ 68%] Built target __idf_touch_element
+[ 69%] Built target __idf_usb
+[ 70%] Built target __idf_cmock
+[ 71%] Built target __idf_protocomm
+[ 96%] Built target __idf_lvgl
+[ 97%] Built target __idf_fatfs
+[ 97%] Built target __idf_esp_local_ctrl
+[ 98%] Built target __idf_wifi_provisioning
+[ 98%] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+[ 98%] Linking C static library libmain.a
+[ 98%] Built target __idf_main
+[ 98%] Generating ld/sections.ld
+[ 98%] Built target __ldgen_output_sections.ld
+[100%] Linking CXX executable lvgl-port.elf
+[100%] Built target lvgl-port.elf
+[100%] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/yurijn/Documents/lvgl-port/build/lvgl-port.bin
+[100%] Built target gen_project_binary
+lvgl-port.bin binary size 0x71eb0 bytes. Smallest app partition is 0x177000 bytes. 0x105150 bytes (70%) free.
+[100%] Built target app_check_size
+[100%] Built target app
+esptool.py --chip esp32s3 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 lvgl-port.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyACM0
+Connecting...
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+Crystal is 40MHz
+MAC: 80:65:99:dd:db:18
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x00081fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 21072 bytes to 13053...
+Writing at 0x00000000... (100 %)
+Wrote 21072 bytes (13053 compressed) at 0x00000000 in 0.4 seconds (effective 392.6 kbit/s)...
+Hash of data verified.
+Compressed 466608 bytes to 273569...
+Writing at 0x00010000... (5 %)
+Writing at 0x0001bf0c... (11 %)
+Writing at 0x0002599e... (17 %)
+Writing at 0x0002bdcc... (23 %)
+Writing at 0x000321d9... (29 %)
+Writing at 0x0003865f... (35 %)
+Writing at 0x0003e749... (41 %)
+Writing at 0x00043e67... (47 %)
+Writing at 0x0004a7e4... (52 %)
+Writing at 0x0004fe0a... (58 %)
+Writing at 0x00055735... (64 %)
+Writing at 0x0005b322... (70 %)
+Writing at 0x00061506... (76 %)
+Writing at 0x0006767a... (82 %)
+Writing at 0x0006ef33... (88 %)
+Writing at 0x00076d29... (94 %)
+Writing at 0x0007d2df... (100 %)
+Wrote 466608 bytes (273569 compressed) at 0x00010000 in 3.9 seconds (effective 963.4 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 105...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (105 compressed) at 0x00008000 in 0.1 seconds (effective 392.1 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+[100%] Built target flash
+Done
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xb (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403ce669
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2d9c
+entry 0x403c9914
+[0;32mI (26) boot: ESP-IDF v5.2.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jul 19 2024 16:40:09[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (64) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (71) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (86) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c050020 size=13d80h ( 81280) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=00023da8 vaddr=3fc97b00 size=02d24h ( 11556) load[0m
+[0;32mI (116) esp_image: segment 2: paddr=00026ad4 vaddr=40374000 size=09544h ( 38212) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=47908h (293128) map[0m
+[0;32mI (181) esp_image: segment 4: paddr=00077930 vaddr=4037d544 size=0a550h ( 42320) load[0m
+[0;32mI (198) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (199) boot: Disabling RNG early entropy source...[0m
+[0;32mI (210) cpu_start: Multicore app[0m
+[0;32mI (220) cpu_start: Pro cpu start user code[0m
+[0;32mI (220) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (220) cpu_start: Application information:[0m
+[0;32mI (223) cpu_start: Project name:     lvgl-port[0m
+[0;32mI (228) cpu_start: App version:      1[0m
+[0;32mI (233) cpu_start: Compile time:     Jul 19 2024 18:18:00[0m
+[0;32mI (239) cpu_start: ELF file SHA256:  c209362de...[0m
+[0;32mI (244) cpu_start: ESP-IDF:          v5.2.2[0m
+[0;32mI (249) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (254) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (259) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (263) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (271) heap_init: At 3FCBAD30 len 0002E9E0 (186 KiB): RAM[0m
+[0;32mI (277) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (283) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (289) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (296) spi_flash: detected chip: winbond[0m
+[0;32mI (300) spi_flash: flash io: dio[0m
+[0;33mW (304) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (317) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (324) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (331) main_task: Started on CPU0[0m
+[0;32mI (341) main_task: Calling app_main()[0m
+[0;32mI (341) LOL: Initializing the Renderer...[0m
+[0;32mI (341) LOL: LVGL version [9.1][0m
+[0;32mI (351) gpio: GPIO[5]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[Warn]	(0.000, +0)	 lv_init: Style sanity checks are enabled that uses more RAM lv_init.c:240
+[0;32mI (601) LOL: Renderer Initialized.[0m
+[0;32mI (311) esp_image: segment 4: paddr=00126d24 vaddr=403740[Warn]	(0.302, +302)	 lv_init: Style sanity checks are enabled that uses more RAM 	(in lv_obj.c line #181)
+[0;33mW (752) hal: initializing [Flash]...[0m
+[0;32mI (762) hal: [Flash] Initialized![0m
+[0;33mW (762) hal: Initializing [DigitalIO]...[0m
+[0;32mI (762) gpio: GPIO[16]| InputEn: 1| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[0;32mI (772) gpio: GPIO[17]| InputEn: 1| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[0;32mI (782) gpio: GPIO[18]| InputEn: 1| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[0;32mI (792) gpio: GPIO[21]| InputEn: 1| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 1| Intr:0 [0m
+[0;32mI (802) hal: [DigitalIO] Initialized![0m
+[0;33mW (802) hal: Initializing [AC Generator Controller]...[0m
+[0;32mI (812) hal: [AC Generator Controller] Initialized![0m
+[0;33mW (812) hal: Initializing [AC Inverter Controller]...[0m
+[0;32mI (822) hal: [AC Iverter Controller] Initialized![0m
+[0;33mW (822) hal: Initializing [Servo Timer]...[0m
+[0;32mI (832) timer: timer and operator creation success[0m
+[0;32mI (832) hal: [Servo Timer] initialized![0m
+[0;33mW (842) hal: Initializing [Servo 1]...[0m
+[0;32mI (842) gpio: GPIO[3]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (852) hal: [Servo 1] Initialized![0m
+[0;33mW (862) hal: Initializing [Servo 2]...[0m
+[0;32mI (862) gpio: GPIO[10]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (872) hal: [Servo 2] Initialized![0m
+[0;33mW (872) hal: Initializing [ESP NOW][0m
+[0;32mI (882) network: Initializing WIFI...[0m
+[0;32mI (882) pp: pp rom version: e7ae62f[0m
+[0;32mI (892) net80211: net80211 rom version: e7ae62f[0m
+I (902) wifi:wifi driver task: 3fcce9a0, prio:23, stack:6656, core=0
+I (902) wifi:wifi firmware version: eb97ced
+I (902) wifi:wifi certification version: v7.0
+I (912) wifi:config NVS flash: enabled
+I (912) wifi:config nano formating: disabled
+I (912) wifi:Init data frame dynamic rx buffer num: 32
+I (922) wifi:Init static rx mgmt buffer num: 5
+I (922) wifi:Init management short buffer num: 32
+I (932) wifi:Init dynamic tx buffer num: 32
+I (932) wifi:Init static tx FG buffer num: 2
+I (942) wifi:Init static rx buffer size: 1600
+I (942) wifi:Init static rx buffer num: 10
+I (942) wifi:Init dynamic rx buffer num: 32
+[0;32mI (952) wifi_init: rx ba win: 6[0m
+[0;32mI (952) wifi_init: accept mbox: 6[0m
+[0;32mI (962) wifi_init: tcpip mbox: 32[0m
+[0;32mI (962) wifi_init: udp mbox: 6[0m
+[0;32mI (962) wifi_init: tcp mbox: 6[0m
+[0;32mI (972) wifi_init: tcp tx win: 5760[0m
+[0;32mI (972) wifi_init: tcp rx win: 5760[0m
+[0;32mI (972) wifi_init: tcp mss: 1440[0m
+[0;32mI (982) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (982) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (992) phy_init: phy_version 670,b7bc9b9,Apr 30 2024,10:54:13[0m
+E (1032) wifi:failed to post WiFi event=41 ret=259
+I (1032) wifi:mode : sta (dc:da:0c:5a:64:34)
+I (1032) wifi:enable tsf
+E (1032) wifi:failed to post WiFi event=2 ret=259
+[0;32mI (1032) network: WIFI Initialized![0m
+[0;32mI (1042) network: Initializing Esp Now...[0m
+I (1042) ESPNOW: espnow [version: 1.0] init
+[0;32mI (1052) network: Self mac address: dc:da:0c:5a:64:34[0m
+[0;32mI (1052) generator: Generator Controller thread is running[0m
+[0;32mI (1062) ac_inverter_ctrlr: Inverter Controller thread is running[0m
+[0;31mE (1552) flash: The 'kpeers' is not initialized yet[0m
+[0;33mW (1552) network: Slot [0]: nothing found.[0m
+[0;33mW (1552) network: Slot [1]: nothing found.[0m
+[0;33mW (1552) network: Slot [2]: nothing found.[0m
+[0;33mW (1552) network: Slot [3]: nothing found.[0m
+[0;33mW (1562) network: Slot [4]: nothing found.[0m
+[0;33mW (1562) network: Slot [5]: nothing found.[0m
+[0;33mW (1572) network: Slot [6]: nothing found.[0m
+[0;33mW (1572) network: Slot [7]: nothing found.[0m
+[0;33mW (1582) network: Slot [8]: nothing found.[0m
+[0;33mW (1582) network: Slot [9]: nothing found.[0m
+[0;33mW (1592) network: This addr will be add: ff:ff:ff:ff:ff:ff[0m
+[0;32mI (1592) network: Added MAC: [ff:ff:ff:ff:ff:ff] to the peer list[0m
+[0;33mW (1602) hal: Initializing [ADS1115]...[0m
+[0;31mE (1612) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;32mI (1612) hal: [ADS1115] Initialized![0m
+[0;31mE (1642) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (1672) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (1702) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (1732) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (1762) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (1792) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (1822) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (1852) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (1882) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (1912) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (1942) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (1972) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2002) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2032) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2062) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2092) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2122) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2152) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2182) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2212) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2242) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2272) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2302) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2332) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2362) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2392) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2422) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2452) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2482) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2512) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2542) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2572) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2602) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;32mI (2622) device: Device Initialized![0m
+[0;33mW (2622) digitalio: BIP![0m
+[0;32mI (2622) renderer: Entered main Renderer Loop[0m
+[0;32mI (2622) main menu: Creating main menu.[0m
+[0;31mE (2632) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2662) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2692) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2722) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2752) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2782) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2812) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2842) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2872) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2902) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2932) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2962) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (2992) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3022) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3052) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3082) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3112) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3142) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3172) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3202) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3232) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3262) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3292) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3322) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3352) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3382) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3412) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3442) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3472) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3502) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3532) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3562) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3592) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3622) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3652) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3682) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3712) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3742) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3772) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3802) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3832) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3862) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3892) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3922) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3952) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (3982) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4012) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4042) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4072) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4102) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4132) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4162) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4192) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4222) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4252) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4282) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4312) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4342) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4372) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4402) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4432) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4462) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4492) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4522) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4552) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4582) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4612) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4642) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4672) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4702) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4732) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4762) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4792) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4822) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4852) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4882) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4912) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4942) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (4972) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5002) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5032) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5062) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5092) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5122) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5152) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5182) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5212) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5242) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5272) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5302) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5332) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5362) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5392) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5422) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5452) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5482) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5512) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5542) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5572) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5602) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5632) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5662) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5692) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5722) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5752) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5782) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5812) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5842) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5872) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5902) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5932) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5962) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (5992) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6022) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6052) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6082) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6112) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6142) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6172) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6202) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6232) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6262) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6292) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6322) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6352) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6382) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6412) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6442) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6472) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6502) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6532) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6562) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6592) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6622) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6652) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6682) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6712) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6742) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6772) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6802) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6832) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6862) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6892) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6922) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6952) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (6982) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7012) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7042) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7072) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7102) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7132) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7162) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7192) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7222) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7252) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7282) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7312) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7342) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7372) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7402) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7432) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7462) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7492) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7522) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7552) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7582) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7612) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7642) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7672) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7702) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7732) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7762) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7792) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7822) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7852) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7882) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7912) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7942) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (7972) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8002) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8032) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8062) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8092) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8122) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8152) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8182) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8212) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8242) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8272) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8302) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8332) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8362) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8392) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8422) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8452) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8482) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8512) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8542) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8572) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8602) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8632) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8662) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8692) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8722) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8752) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8782) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8812) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8842) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8872) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8902) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8932) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8962) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (8992) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9022) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9052) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9082) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9112) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9142) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9172) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9202) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9232) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9262) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9292) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9322) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9352) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9382) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9412) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9442) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9472) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9502) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9532) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9562) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9592) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9622) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9652) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9682) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9712) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9742) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9772) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9802) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9832) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9862) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9892) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9922) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9952) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (9982) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10012) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10042) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10072) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10102) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10132) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10162) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10192) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10222) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10252) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10282) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10312) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10342) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10372) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10402) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10432) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10462) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10492) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10522) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10552) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10582) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10612) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10642) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10672) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10702) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10732) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10762) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10792) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10822) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10852) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10882) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10912) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10942) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (10972) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11002) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11032) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11062) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11092) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11122) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11152) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11182) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11212) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11242) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11272) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11302) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11332) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11362) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11392) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11422) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11452) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11482) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11512) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11542) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11572) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+Executing action: flash
+Running make in directory /home/yurijn/Documents/lvgl-port/build
+Executing "make -j 6 flash"...
+[  0%] Built target partition_table_bin
+[  0%] Built target _project_elf_src
+[  0%] Built target sections.ld.in
+[  0%] Built target custom_bundle
+[  0%] Built target memory.ld
+[  0%] Performing build step for 'bootloader'
+[  0%] Built target __idf_esp_https_ota
+[  0%] Built target _project_elf_src
+[  1%] Built target __idf_esp_http_server
+[  3%] Built target __idf_log
+[ 13%] Built target __idf_esp_rom
+[  1%] Built target __idf_esp_http_client
+[  1%] Built target __idf_tcp_transport
+[ 15%] Built target __idf_esp_common
+[ 23%] Built target __idf_esp_hw_support
+[  2%] Built target __idf_esp_gdbstub
+[ 25%] Built target __idf_esp_system
+[  3%] Built target __idf_esp_eth
+[ 34%] Built target __idf_efuse
+[  4%] Built target __idf_esp_adc
+[  5%] Built target __idf_esp-tls
+[ 54%] Built target __idf_bootloader_support
+[ 56%] Built target __idf_esp_bootloader_format
+[  5%] Built target __idf_http_parser
+[ 58%] Built target __idf_spi_flash
+[  5%] Built target __idf_esp_wifi
+[ 64%] Built target __idf_hal
+[  5%] Built target __idf_esp_coex
+[ 67%] Built target __idf_micro-ecc
+[ 11%] Built target __idf_wpa_supplicant
+[ 90%] Built target __idf_soc
+[ 93%] Built target __idf_xtensa
+[ 12%] Built target __idf_esp_netif
+[ 95%] Built target __idf_main
+[ 98%] Built target bootloader.elf
+[ 19%] Built target __idf_lwip
+[100%] Built target gen_project_binary
+[ 19%] Built target __idf_vfs
+[ 20%] Built target __idf_esp_phy
+Bootloader binary size 0x5250 bytes. 0x2db0 bytes (36%) free.
+[100%] Built target bootloader_check_size
+[ 22%] Built target __idf_nvs_flash
+[100%] Built target app
+[ 22%] Built target __idf_esp_event
+[ 23%] No install step for 'bootloader'
+[ 24%] Built target __idf_esp_timer
+[ 24%] Completed 'bootloader'
+[ 24%] Built target __idf_esp_common
+[ 24%] Built target bootloader
+[ 24%] Built target __idf_cxx
+[ 25%] Built target __idf_newlib
+[ 26%] Built target __idf_freertos
+[ 30%] Built target __idf_esp_hw_support
+[ 32%] Built target __idf_soc
+[ 33%] Built target __idf_heap
+[ 33%] Built target __idf_log
+[ 37%] Built target __idf_hal
+[ 38%] Built target __idf_esp_rom
+[ 41%] Built target __idf_esp_system
+[ 42%] Built target __idf_pthread
+[ 44%] Built target __idf_spi_flash
+[ 44%] Built target __idf_app_update
+[ 44%] Built target __idf_esp_partition
+[ 45%] Built target __idf_bootloader_support
+[ 45%] Built target __idf_esp_app_format
+[ 45%] Built target __idf_esp_bootloader_format
+[ 47%] Built target mbedtls
+[ 48%] Built target mbedx509
+[ 55%] Built target mbedcrypto
+[ 55%] Built target p256m
+[ 55%] Built target everest
+[ 56%] Built target __idf_mbedtls
+[ 56%] Built target __idf_esp_pm
+[ 61%] Built target __idf_driver
+[ 61%] Built target __idf_esp_mm
+[ 61%] Built target __idf_efuse
+[ 61%] Built target __idf_esp_ringbuf
+[ 62%] Built target __idf_xtensa
+[ 62%] Built target __idf_app_trace
+[ 62%] Built target __idf_unity
+[ 62%] Built target __idf_esp_hid
+[ 63%] Built target __idf_console
+[ 64%] Built target __idf_esp_lcd
+[ 64%] Built target __idf_protobuf-c
+[ 65%] Built target __idf_espcoredump
+[ 66%] Built target __idf_wear_levelling
+[ 66%] Built target __idf_sdmmc
+[ 66%] Built target __idf_json
+[ 66%] Built target __idf_mqtt
+[ 66%] Built target __idf_nvs_sec_provider
+[ 66%] Built target __idf_perfmon
+[ 67%] Built target __idf_touch_element
+[ 68%] Built target __idf_spiffs
+[ 69%] Built target __idf_usb
+[ 70%] Built target __idf_cmock
+[ 71%] Built target __idf_protocomm
+[ 86%] Built target __idf_fatfs
+[ 97%] Built target __idf_lvgl
+[ 97%] Built target __idf_esp_local_ctrl
+[ 98%] Built target __idf_wifi_provisioning
+[ 98%] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+[ 98%] Linking C static library libmain.a
+[ 98%] Built target __idf_main
+[ 98%] Generating ld/sections.ld
+[ 98%] Built target __ldgen_output_sections.ld
+[100%] Linking CXX executable lvgl-port.elf
+[100%] Built target lvgl-port.elf
+[100%] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/yurijn/Documents/lvgl-port/build/lvgl-port.bin
+[100%] Built target gen_project_binary
+lvgl-port.bin binary size 0x71eb0 bytes. Smallest app partition is 0x177000 bytes. 0x105150 bytes (70%) free.
+[100%] Built target app_check_size
+[100%] Built target app
+esptool.py --chip esp32s3 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 lvgl-port.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyACM0
+Connecting....
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+Crystal is 40MHz
+MAC: dc:da:0c:5a:64:34
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x00081fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 21072 bytes to 13053...
+Writing at 0x00000000... (100 %)
+Wrote 21072 bytes (13053 compressed) at 0x00000000 in 0.4 seconds (effective 391.9 kbit/s)...
+Hash of data verified.
+Compressed 466608 bytes to 273573...
+Writing at 0x00010000... (5 %)
+Writing at 0x0001bf00... (11 %)
+Writing at 0x0002599c... (17 %)
+Writing at 0x0002bdcc... (23 %)
+Writing at 0x000321d3... (29 %)
+Writing at 0x0003865c... (35 %)
+Writing at 0x0003e748... (41 %)
+Writing at 0x00043e5d... (47 %)
+Writing at 0x0004a7df... (52 %)
+Writing at 0x0004fe08... (58 %)
+Writing at 0x00055733... (64 %)
+Writing at 0x0005b320... (70 %)
+Writing at 0x00061505... (76 %)
+Writing at 0x00067673... (82 %)
+Writing at 0x0006ef31... (88 %)
+Writing at 0x00076d27... (94 %)
+Writing at 0x0007d2d1... (100 %)
+Wrote 466608 bytes (273573 compressed) at 0x00010000 in 4.0 seconds (effective 934.8 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 105...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (105 compressed) at 0x00008000 in 0.1 seconds (effective 377.0 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+[100%] Built target flash
+Done
+[0;31mE (11602) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11632) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11662) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11692) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11722) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11752) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11782) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11812) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11842) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;31mE (11872) ads1115: Failed to read adc with i2c  err ESP_ERR_TIMEOUT[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3c05002ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40056f6f
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2d9c
+entry 0x403c9914
+[0;32mI (26) boot: ESP-IDF v5.2.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jul 19 2024 16:40:09[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (64) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (87) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c050020 size=13d80h ( 81280) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=00023da8 vaddr=3fc97b00 size=02d24h ( 11556) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=00026ad4 vaddr=40374000 size=09544h ( 38212) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=47908h (293128) map[0m
+[0;32mI (181) esp_image: segment 4: paddr=00077930 vaddr=4037d544 size=0a550h ( 42320) load[0m
+[0;32mI (198) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (199) boot: Disabling RNG early entropy source...[0m
+[0;32mI (210) cpu_start: Multicore app[0m
+[0;32mI (220) cpu_start: Pro cpu start user code[0m
+[0;32mI (220) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (220) cpu_start: Application information:[0m
+[0;32mI (223) cpu_start: Project name:     lvgl-port[0m
+[0;32mI (228) cpu_start: App version:      1[0m
+[0;32mI (233) cpu_start: Compile time:     Jul 19 2024 18:18:00[0m
+[0;32mI (239) cpu_start: ELF file SHA256:  763534a3f...[0m
+[0;32mI (244) cpu_start: ESP-IDF:          v5.2.2[0m
+[0;32mI (249) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (254) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (259) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (263) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (271) heap_init: At 3FCBAD30 len 0002E9E0 (186 KiB): RAM[0m
+[0;32mI (277) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (283) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (289) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (296) spi_flash: detected chip: winbond[0m
+[0;32mI (300) spi_flash: flash io: dio[0m
+[0;33mW (304) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (317) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (324) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (331) main_task: Started on CPU0[0m
+[0;32mI (341) main_task: Calling app_main()[0m
+[0;32mI (341) LOL: Initializing the Renderer...[0m
+[0;32mI (341) LOL: LVGL version [9.1][0m
+[0;32mI (351) gpio: GPIO[5]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[Warn]	(0.000, +0)	 lv_init: Style sanity checks are enabled that uses more RAM lv_init.c:240
+[0;32mI (601) LOL: Renderer Initialized.[0m
+Executing action: flash
+Running make in directory /home/yurijn/Documents/lvgl-port/build
+Executing "make -j 6 flash"...
+[  0%] Built target partition_table_bin
+[  0%] Built target memory.ld
+[  0%] Built target sections.ld.in
+[  0%] Built target _project_elf_src
+[  0%] Built target custom_bundle
+[  0%] Performing build step for 'bootloader'
+[  0%] Built target __idf_esp_https_ota
+[  1%] Built target __idf_esp_http_server
+[  0%] Built target _project_elf_src
+[  3%] Built target __idf_log
+[  1%] Built target __idf_esp_http_client
+[ 13%] Built target __idf_esp_rom
+[  1%] Built target __idf_tcp_transport
+[ 15%] Built target __idf_esp_common
+[  2%] Built target __idf_esp_gdbstub
+[ 23%] Built target __idf_esp_hw_support
+[  3%] Built target __idf_esp_eth
+[ 25%] Built target __idf_esp_system
+[  4%] Built target __idf_esp_adc
+[ 34%] Built target __idf_efuse
+[  5%] Built target __idf_esp-tls
+[ 54%] Built target __idf_bootloader_support
+[  5%] Built target __idf_http_parser
+[ 56%] Built target __idf_esp_bootloader_format
+[  5%] Built target __idf_esp_wifi
+[ 58%] Built target __idf_spi_flash
+[  5%] Built target __idf_esp_coex
+[ 64%] Built target __idf_hal
+[ 67%] Built target __idf_micro-ecc
+[ 11%] Built target __idf_wpa_supplicant
+[ 90%] Built target __idf_soc
+[ 93%] Built target __idf_xtensa
+[ 12%] Built target __idf_esp_netif
+[ 95%] Built target __idf_main
+[ 98%] Built target bootloader.elf
+[ 19%] Built target __idf_lwip
+[100%] Built target gen_project_binary
+[ 19%] Built target __idf_vfs
+[ 20%] Built target __idf_esp_phy
+Bootloader binary size 0x5250 bytes. 0x2db0 bytes (36%) free.
+[100%] Built target bootloader_check_size
+[ 22%] Built target __idf_nvs_flash
+[100%] Built target app
+[ 22%] Built target __idf_esp_event
+[ 23%] No install step for 'bootloader'
+[ 24%] Built target __idf_esp_timer
+[ 24%] Completed 'bootloader'
+[ 24%] Built target __idf_esp_common
+[ 24%] Built target bootloader
+[ 24%] Built target __idf_cxx
+[ 25%] Built target __idf_newlib
+[ 26%] Built target __idf_freertos
+[ 30%] Built target __idf_esp_hw_support
+[ 32%] Built target __idf_soc
+[ 33%] Built target __idf_heap
+[ 33%] Built target __idf_log
+[ 37%] Built target __idf_hal
+[ 38%] Built target __idf_esp_rom
+[ 41%] Built target __idf_esp_system
+[ 42%] Built target __idf_pthread
+[ 44%] Built target __idf_spi_flash
+[ 44%] Built target __idf_app_update
+[ 44%] Built target __idf_esp_partition
+[ 45%] Built target __idf_bootloader_support
+[ 45%] Built target __idf_esp_app_format
+[ 45%] Built target __idf_esp_bootloader_format
+[ 47%] Built target mbedtls
+[ 48%] Built target mbedx509
+[ 55%] Built target mbedcrypto
+[ 55%] Built target p256m
+[ 55%] Built target everest
+[ 56%] Built target __idf_mbedtls
+[ 56%] Built target __idf_esp_pm
+[ 61%] Built target __idf_driver
+[ 61%] Built target __idf_esp_mm
+[ 61%] Built target __idf_efuse
+[ 61%] Built target __idf_esp_ringbuf
+[ 62%] Built target __idf_xtensa
+[ 62%] Built target __idf_unity
+[ 62%] Built target __idf_app_trace
+[ 63%] Built target __idf_esp_lcd
+[ 63%] Built target __idf_esp_hid
+[ 64%] Built target __idf_console
+[ 64%] Built target __idf_protobuf-c
+[ 65%] Built target __idf_espcoredump
+[ 66%] Built target __idf_wear_levelling
+[ 66%] Built target __idf_sdmmc
+[ 66%] Built target __idf_json
+[ 66%] Built target __idf_mqtt
+[ 66%] Built target __idf_nvs_sec_provider
+[ 66%] Built target __idf_perfmon
+[ 67%] Built target __idf_spiffs
+[ 68%] Built target __idf_touch_element
+[ 69%] Built target __idf_usb
+[ 70%] Built target __idf_protocomm
+[ 71%] Built target __idf_fatfs
+[ 72%] Built target __idf_cmock
+[ 97%] Built target __idf_lvgl
+[ 98%] Built target __idf_wifi_provisioning
+[ 98%] Built target __idf_esp_local_ctrl
+[ 98%] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+[ 98%] Linking C static library libmain.a
+[ 98%] Built target __idf_main
+[ 98%] Generating ld/sections.ld
+[ 98%] Built target __ldgen_output_sections.ld
+[100%] Linking CXX executable lvgl-port.elf
+[100%] Built target lvgl-port.elf
+[100%] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/yurijn/Documents/lvgl-port/build/lvgl-port.bin
+[100%] Built target gen_project_binary
+lvgl-port.bin binary size 0x71eb0 bytes. Smallest app partition is 0x177000 bytes. 0x105150 bytes (70%) free.
+[100%] Built target app_check_size
+[100%] Built target app
+esptool.py --chip esp32s3 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 lvgl-port.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyACM0
+Connecting...
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+Crystal is 40MHz
+MAC: dc:da:0c:5a:64:34
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x00081fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 21072 bytes to 13053...
+Writing at 0x00000000... (100 %)
+Wrote 21072 bytes (13053 compressed) at 0x00000000 in 0.4 seconds (effective 391.0 kbit/s)...
+Hash of data verified.
+Compressed 466608 bytes to 273530...
+Writing at 0x00010000... (5 %)
+Writing at 0x0001bf11... (11 %)
+Writing at 0x000259ab... (17 %)
+Writing at 0x0002bda6... (23 %)
+Writing at 0x000321a7... (29 %)
+Writing at 0x00038632... (35 %)
+Writing at 0x0003e729... (41 %)
+Writing at 0x00043ee5... (47 %)
+Writing at 0x00049845... (52 %)
+Writing at 0x00050022... (58 %)
+Writing at 0x00055808... (64 %)
+Writing at 0x0005b2df... (70 %)
+Writing at 0x00061558... (76 %)
+Writing at 0x000676ad... (82 %)
+Writing at 0x0006ef77... (88 %)
+Writing at 0x00076d74... (94 %)
+Writing at 0x0007d327... (100 %)
+Wrote 466608 bytes (273530 compressed) at 0x00010000 in 4.0 seconds (effective 943.6 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 105...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (105 compressed) at 0x00008000 in 0.1 seconds (effective 374.5 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+[100%] Built target flash
+Done
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3c05002ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40056f6f
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2d9c
+entry 0x403c9914
+[0;32mI (26) boot: ESP-IDF v5.2.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jul 19 2024 16:40:09[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (64) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (87) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c050020 size=13d80h ( 81280) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=00023da8 vaddr=3fc97b00 size=02d24h ( 11556) load[0m
+[0;32mI (117) esp_image: segment 2: paddr=00026ad4 vaddr=40374000 size=09544h ( 38212) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=47908h (293128) map[0m
+[0;32mI (181) esp_image: segment 4: paddr=00077930 vaddr=4037d544 size=0a550h ( 42320) load[0m
+[0;32mI (199) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (199) boot: Disabling RNG early entropy source...[0m
+[0;32mI (211) cpu_start: Multicore app[0m
+[0;32mI (220) cpu_start: Pro cpu start user code[0m
+[0;32mI (220) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (220) cpu_start: Application information:[0m
+[0;32mI (223) cpu_start: Project name:     lvgl-port[0m
+[0;32mI (228) cpu_start: App version:      1[0m
+[0;32mI (233) cpu_start: Compile time:     Jul 19 2024 18:18:00[0m
+[0;32mI (239) cpu_start: ELF file SHA256:  e56bc17d4...[0m
+[0;32mI (244) cpu_start: ESP-IDF:          v5.2.2[0m
+[0;32mI (249) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (254) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (259) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (263) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (271) heap_init: At 3FCBAD30 len 0002E9E0 (186 KiB): RAM[0m
+[0;32mI (277) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (283) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (289) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (296) spi_flash: detected chip: winbond[0m
+[0;32mI (300) spi_flash: flash io: dio[0m
+[0;33mW (304) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (317) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (324) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (331) main_task: Started on CPU0[0m
+[0;32mI (341) main_task: Calling app_main()[0m
+[0;32mI (341) LOL: Initializing the Renderer...[0m
+[0;32mI (341) LOL: LVGL version [9.1][0m
+[0;32mI (351) gpio: GPIO[5]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[Warn]	(0.000, +0)	 lv_init: Style sanity checks are enabled that uses more RAM lv_init.c:240
+[0;32mI (601) LOL: Renderer Initialized.[0m
+Executing action: flash
+Running make in directory /home/yurijn/Documents/lvgl-port/build
+Executing "make -j 6 flash"...
+[  0%] Built target partition_table_bin
+[  0%] Built target custom_bundle
+[  0%] Built target memory.ld
+[  0%] Built target sections.ld.in
+[  0%] Built target _project_elf_src
+[  0%] Performing build step for 'bootloader'
+[  0%] Built target __idf_esp_https_ota
+[  1%] Built target __idf_esp_http_server
+[  1%] Built target _project_elf_src
+[  3%] Built target __idf_log
+[  1%] Built target __idf_esp_http_client
+[ 13%] Built target __idf_esp_rom
+[  1%] Built target __idf_tcp_transport
+[ 15%] Built target __idf_esp_common
+[  2%] Built target __idf_esp_gdbstub
+[ 23%] Built target __idf_esp_hw_support
+[  3%] Built target __idf_esp_eth
+[ 25%] Built target __idf_esp_system
+[  4%] Built target __idf_esp_adc
+[ 34%] Built target __idf_efuse
+[  5%] Built target __idf_esp-tls
+[ 54%] Built target __idf_bootloader_support
+[  5%] Built target __idf_http_parser
+[ 56%] Built target __idf_esp_bootloader_format
+[  5%] Built target __idf_esp_wifi
+[ 58%] Built target __idf_spi_flash
+[  5%] Built target __idf_esp_coex
+[ 64%] Built target __idf_hal
+[ 67%] Built target __idf_micro-ecc
+[ 11%] Built target __idf_wpa_supplicant
+[ 90%] Built target __idf_soc
+[ 12%] Built target __idf_esp_netif
+[ 93%] Built target __idf_xtensa
+[ 95%] Built target __idf_main
+[ 19%] Built target __idf_lwip
+[ 98%] Built target bootloader.elf
+[ 19%] Built target __idf_vfs
+[100%] Built target gen_project_binary
+[ 20%] Built target __idf_esp_phy
+Bootloader binary size 0x5250 bytes. 0x2db0 bytes (36%) free.
+[ 22%] Built target __idf_nvs_flash
+[100%] Built target bootloader_check_size
+[ 22%] Built target __idf_esp_event
+[100%] Built target app
+[ 23%] Built target __idf_esp_timer
+[ 24%] No install step for 'bootloader'
+[ 24%] Completed 'bootloader'
+[ 24%] Built target __idf_esp_common
+[ 24%] Built target __idf_cxx
+[ 24%] Built target bootloader
+[ 25%] Built target __idf_newlib
+[ 26%] Built target __idf_freertos
+[ 30%] Built target __idf_esp_hw_support
+[ 32%] Built target __idf_soc
+[ 33%] Built target __idf_heap
+[ 33%] Built target __idf_log
+[ 37%] Built target __idf_hal
+[ 38%] Built target __idf_esp_rom
+[ 41%] Built target __idf_esp_system
+[ 42%] Built target __idf_pthread
+[ 44%] Built target __idf_spi_flash
+[ 44%] Built target __idf_app_update
+[ 44%] Built target __idf_esp_partition
+[ 45%] Built target __idf_bootloader_support
+[ 45%] Built target __idf_esp_app_format
+[ 45%] Built target __idf_esp_bootloader_format
+[ 47%] Built target mbedtls
+[ 48%] Built target mbedx509
+[ 55%] Built target mbedcrypto
+[ 55%] Built target p256m
+[ 55%] Built target everest
+[ 56%] Built target __idf_mbedtls
+[ 56%] Built target __idf_esp_pm
+[ 61%] Built target __idf_driver
+[ 61%] Built target __idf_esp_mm
+[ 61%] Built target __idf_efuse
+[ 61%] Built target __idf_esp_ringbuf
+[ 62%] Built target __idf_xtensa
+[ 62%] Built target __idf_app_trace
+[ 62%] Built target __idf_esp_hid
+[ 62%] Built target __idf_unity
+[ 63%] Built target __idf_esp_lcd
+[ 64%] Built target __idf_console
+[ 65%] Built target __idf_wear_levelling
+[ 66%] Built target __idf_espcoredump
+[ 66%] Built target __idf_protobuf-c
+[ 66%] Built target __idf_json
+[ 66%] Built target __idf_sdmmc
+[ 66%] Built target __idf_nvs_sec_provider
+[ 66%] Built target __idf_mqtt
+[ 66%] Built target __idf_perfmon
+[ 67%] Built target __idf_spiffs
+[ 68%] Built target __idf_cmock
+[ 69%] Built target __idf_touch_element
+[ 70%] Built target __idf_usb
+[ 71%] Built target __idf_protocomm
+[ 72%] Built target __idf_fatfs
+[ 97%] Built target __idf_lvgl
+[ 97%] Built target __idf_esp_local_ctrl
+[ 98%] Built target __idf_wifi_provisioning
+[ 98%] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+[ 98%] Linking C static library libmain.a
+[ 98%] Built target __idf_main
+[ 98%] Generating ld/sections.ld
+[ 98%] Built target __ldgen_output_sections.ld
+[100%] Linking CXX executable lvgl-port.elf
+[100%] Built target lvgl-port.elf
+[100%] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/yurijn/Documents/lvgl-port/build/lvgl-port.bin
+[100%] Built target gen_project_binary
+lvgl-port.bin binary size 0x71eb0 bytes. Smallest app partition is 0x177000 bytes. 0x105150 bytes (70%) free.
+[100%] Built target app_check_size
+[100%] Built target app
+esptool.py --chip esp32s3 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 lvgl-port.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyACM0
+Connecting....
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+Crystal is 40MHz
+MAC: 80:65:99:dd:db:18
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x00081fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 21072 bytes to 13053...
+Writing at 0x00000000... (100 %)
+Wrote 21072 bytes (13053 compressed) at 0x00000000 in 0.4 seconds (effective 398.4 kbit/s)...
+Hash of data verified.
+Compressed 466608 bytes to 273555...
+Writing at 0x00010000... (5 %)
+Writing at 0x0001bf10... (11 %)
+Writing at 0x000259a1... (17 %)
+Writing at 0x0002bda5... (23 %)
+Writing at 0x000321a0... (29 %)
+Writing at 0x0003862c... (35 %)
+Writing at 0x0003e732... (41 %)
+Writing at 0x00043ef1... (47 %)
+Writing at 0x00049842... (52 %)
+Writing at 0x0005001d... (58 %)
+Writing at 0x000557fe... (64 %)
+Writing at 0x0005b2b2... (70 %)
+Writing at 0x00061512... (76 %)
+Writing at 0x0006767f... (82 %)
+Writing at 0x0006ef58... (88 %)
+Writing at 0x00076d51... (94 %)
+Writing at 0x0007d303... (100 %)
+Wrote 466608 bytes (273555 compressed) at 0x00010000 in 3.8 seconds (effective 976.9 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 105...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (105 compressed) at 0x00008000 in 0.1 seconds (effective 382.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+[100%] Built target flash
+Done
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3c05002ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xb (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403ce634
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2d9c
+entry 0x403c9914
+[0;32mI (26) boot: ESP-IDF v5.2.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jul 19 2024 16:40:09[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (64) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (71) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (86) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c050020 size=13d80h ( 81280) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=00023da8 vaddr=3fc97b00 size=02d24h ( 11556) load[0m
+[0;32mI (116) esp_image: segment 2: paddr=00026ad4 vaddr=40374000 size=09544h ( 38212) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=4790ch (293132) map[0m
+[0;32mI (181) esp_image: segment 4: paddr=00077934 vaddr=4037d544 size=0a550h ( 42320) load[0m
+[0;32mI (198) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (199) boot: Disabling RNG early entropy source...[0m
+[0;32mI (210) cpu_start: Multicore app[0m
+[0;32mI (220) cpu_start: Pro cpu start user code[0m
+[0;32mI (220) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (220) cpu_start: Application information:[0m
+[0;32mI (223) cpu_start: Project name:     lvgl-port[0m
+[0;32mI (228) cpu_start: App version:      1[0m
+[0;32mI (233) cpu_start: Compile time:     Jul 19 2024 18:18:00[0m
+[0;32mI (239) cpu_start: ELF file SHA256:  ea902ec83...[0m
+[0;32mI (244) cpu_start: ESP-IDF:          v5.2.2[0m
+[0;32mI (249) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (254) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (259) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (263) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (271) heap_init: At 3FCBAD30 len 0002E9E0 (186 KiB): RAM[0m
+[0;32mI (277) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (283) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (289) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (296) spi_flash: detected chip: winbond[0m
+[0;32mI (300) spi_flash: flash io: dio[0m
+[0;33mW (304) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (317) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (324) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (331) main_task: Started on CPU0[0m
+[0;32mI (341) main_task: Calling app_main()[0m
+[0;32mI (341) LOL: Initializing the Renderer...[0m
+[0;32mI (341) LOL: LVGL version [9.1][0m
+[0;32mI (351) gpio: GPIO[5]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[Warn]	(0.000, +0)	 lv_init: Style sanity checks are enabled that uses more RAM lv_init.c:240
+[0;32mI (601) LOL: Renderer Initialized.[0m
+[0;31mE (5581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (5581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (5581) task_wdt: Tasks currently running:[0m
+[0;31mE (5581) task_wdt: CPU 0: main[0m
+[0;31mE (5581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (5581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4203329B:0x3FC98AA0 0x420336B8:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF79:0x3FCBE510 0x4200F345:0x3FCBE530 0x4200FB45:0x3FCBE550 0x4200FC9B:0x3FCBE580 0x4200FD99:0x3FCBE5C0 0x4200FF93:0x3FCBE5E0 0x420191A5:0x3FCBE600 0x4201925F:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BA7:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+[0;31mE (10581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (10581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (10581) task_wdt: Tasks currently running:[0m
+[0;31mE (10581) task_wdt: CPU 0: main[0m
+[0;31mE (10581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (10581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4203329B:0x3FC98AA0 0x420336B8:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF79:0x3FCBE510 0x4200F345:0x3FCBE530 0x4200FB45:0x3FCBE550 0x4200FC9B:0x3FCBE580 0x4200FD99:0x3FCBE5C0 0x4200FF93:0x3FCBE5E0 0x420191A5:0x3FCBE600 0x4201925F:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BA7:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+[0;31mE (15581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (15581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (15581) task_wdt: Tasks currently running:[0m
+[0;31mE (15581) task_wdt: CPU 0: main[0m
+[0;31mE (15581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (15581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4203329B:0x3FC98AA0 0x420336B8:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF79:0x3FCBE510 0x4200F345:0x3FCBE530 0x4200FB45:0x3FCBE550 0x4200FC9B:0x3FCBE580 0x4200FD99:0x3FCBE5C0 0x4200FF93:0x3FCBE5E0 0x420191A5:0x3FCBE600 0x4201925F:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BA7:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+[0;31mE (20581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (20581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (20581) task_wdt: Tasks currently running:[0m
+[0;31mE (20581) task_wdt: CPU 0: main[0m
+[0;31mE (20581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (20581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4203329B:0x3FC98AA0 0x420336B8:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF79:0x3FCBE510 0x4200F345:0x3FCBE530 0x4200FB45:0x3FCBE550 0x4200FC9B:0x3FCBE580 0x4200FD99:0x3FCBE5C0 0x4200FF93:0x3FCBE5E0 0x420191A5:0x3FCBE600 0x4201925F:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BA7:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+[0;31mE (25581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (25581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (25581) task_wdt: Tasks currently running:[0m
+[0;31mE (25581) task_wdt: CPU 0: main[0m
+[0;31mE (25581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (25581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4203329B:0x3FC98AA0 0x420336B8:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF79:0x3FCBE510 0x4200F345:0x3FCBE530 0x4200FB45:0x3FCBE550 0x4200FC9B:0x3FCBE580 0x4200FD99:0x3FCBE5C0 0x4200FF93:0x3FCBE5E0 0x420191A5:0x3FCBE600 0x4201925F:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BA7:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+[0;31mE (30581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (30581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (30581) task_wdt: Tasks currently running:[0m
+[0;31mE (30581) task_wdt: CPU 0: main[0m
+[0;31mE (30581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (30581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4203329B:0x3FC98AA0 0x420336B8:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF79:0x3FCBE510 0x4200F345:0x3FCBE530 0x4200FB45:0x3FCBE550 0x4200FC9B:0x3FCBE580 0x4200FD99:0x3FCBE5C0 0x4200FF93:0x3FCBE5E0 0x420191A5:0x3FCBE600 0x4201925F:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BA7:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+[0;31mE (35581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (35581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (35581) task_wdt: Tasks currently running:[0m
+[0;31mE (35581) task_wdt: CPU 0: main[0m
+[0;31mE (35581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (35581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4203329B:0x3FC98AA0 0x420336B8:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF79:0x3FCBE510 0x4200F345:0x3FCBE530 0x4200FB45:0x3FCBE550 0x4200FC9B:0x3FCBE580 0x4200FD99:0x3FCBE5C0 0x4200FF93:0x3FCBE5E0 0x420191A5:0x3FCBE600 0x4201925F:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BA7:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+[0;31mE (40581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (40581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (40581) task_wdt: Tasks currently running:[0m
+[0;31mE (40581) task_wdt: CPU 0: main[0m
+[0;31mE (40581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (40581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4203329B:0x3FC98AA0 0x420336B8:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF79:0x3FCBE510 0x4200F345:0x3FCBE530 0x4200FB45:0x3FCBE550 0x4200FC9B:0x3FCBE580 0x4200FD99:0x3FCBE5C0 0x4200FF93:0x3FCBE5E0 0x420191A5:0x3FCBE600 0x4201925F:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BA7:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+[0;31mE (45581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (45581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (45581) task_wdt: Tasks currently running:[0m
+[0;31mE (45581) task_wdt: CPU 0: main[0m
+[0;31mE (45581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (45581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4203329B:0x3FC98AA0 0x420336B8:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF79:0x3FCBE510 0x4200F345:0x3FCBE530 0x4200FB45:0x3FCBE550 0x4200FC9B:0x3FCBE580 0x4200FD99:0x3FCBE5C0 0x4200FF93:0x3FCBE5E0 0x420191A5:0x3FCBE600 0x4201925F:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BA7:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+[0;31mE (50581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (50581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (50581) task_wdt: Tasks currently running:[0m
+[0;31mE (50581) task_wdt: CPU 0: main[0m
+[0;31mE (50581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (50581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4203329B:0x3FC98AA0 0x420336B8:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF79:0x3FCBE510 0x4200F345:0x3FCBE530 0x4200FB45:0x3FCBE550 0x4200FC9B:0x3FCBE580 0x4200FD99:0x3FCBE5C0 0x4200FF93:0x3FCBE5E0 0x420191A5:0x3FCBE600 0x4201925F:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BA7:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+[0;31mE (55581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (55581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (55581) task_wdt: Tasks currently running:[0m
+[0;31mE (55581) task_wdt: CPU 0: main[0m
+[0;31mE (55581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (55581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4203329B:0x3FC98AA0 0x420336B8:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF79:0x3FCBE510 0x4200F345:0x3FCBE530 0x4200FB45:0x3FCBE550 0x4200FC9B:0x3FCBE580 0x4200FD99:0x3FCBE5C0 0x4200FF93:0x3FCBE5E0 0x420191A5:0x3FCBE600 0x4201925F:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BA7:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+[0;31mE (60581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (60581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (60581) task_wdt: Tasks currently running:[0m
+[0;31mE (60581) task_wdt: CPU 0: main[0m
+[0;31mE (60581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (60581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4203329B:0x3FC98AA0 0x420336B8:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF79:0x3FCBE510 0x4200F345:0x3FCBE530 0x4200FB45:0x3FCBE550 0x4200FC9B:0x3FCBE580 0x4200FD99:0x3FCBE5C0 0x4200FF93:0x3FCBE5E0 0x420191A5:0x3FCBE600 0x4201925F:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BA7:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+[0;31mE (65581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (65581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (65581) task_wdt: Tasks currently running:[0m
+[0;31mE (65581) task_wdt: CPU 0: main[0m
+[0;31mE (65581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (65581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4203329B:0x3FC98AA0 0x420336B8:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF79:0x3FCBE510 0x4200F345:0x3FCBE530 0x4200FB45:0x3FCBE550 0x4200FC9B:0x3FCBE580 0x4200FD99:0x3FCBE5C0 0x4200FF93:0x3FCBE5E0 0x420191A5:0x3FCBE600 0x4201925F:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BA7:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+[0;31mE (70581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (70581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (70581) task_wdt: Tasks currently running:[0m
+[0;31mE (70581) task_wdt: CPU 0: main[0m
+[0;31mE (70581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (70581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4203329B:0x3FC98AA0 0x420336B8:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF79:0x3FCBE510 0x4200F345:0x3FCBE530 0x4200FB45:0x3FCBE550 0x4200FC9B:0x3FCBE580 0x4200FD99:0x3FCBE5C0 0x4200FF93:0x3FCBE5E0 0x420191A5:0x3FCBE600 0x4201925F:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BA7:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+[0;31mE (75581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (75581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (75581) task_wdt: Tasks currently running:[0m
+[0;31mE (75581) task_wdt: CPU 0: main[0m
+[0;31mE (75581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (75581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4203329B:0x3FC98AA0 0x420336B8:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF79:0x3FCBE510 0x4200F345:0x3FCBE530 0x4200FB45:0x3FCBE550 0x4200FC9B:0x3FCBE580 0x4200FD99:0x3FCBE5C0 0x4200FF93:0x3FCBE5E0 0x420191A5:0x3FCBE600 0x4201925F:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BA7:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+[0;31mE (80581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (80581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (80581) task_wdt: Tasks currently running:[0m
+[0;31mE (80581) task_wdt: CPU 0: main[0m
+[0;31mE (80581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (80581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4203329B:0x3FC98AA0 0x420336B8:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF79:0x3FCBE510 0x4200F345:0x3FCBE530 0x4200FB45:0x3FCBE550 0x4200FC9B:0x3FCBE580 0x4200FD99:0x3FCBE5C0 0x4200FF93:0x3FCBE5E0 0x420191A5:0x3FCBE600 0x4201925F:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BA7:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+[0;31mE (85581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (85581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (85581) task_wdt: Tasks currently running:[0m
+[0;31mE (85581) task_wdt: CPU 0: main[0m
+[0;31mE (85581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (85581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x4203329B:0x3FC98AA0 0x420336B8:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF79:0x3FCBE510 0x4200F345:0x3FCBE530 0x4200FB45:0x3FCBE550 0x4200FC9B:0x3FCBE580 0x4200FD99:0x3FCBE5C0 0x4200FF93:0x3FCBE5E0 0x420191A5:0x3FCBE600 0x4201925F:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BA7:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+Executing action: flash
+Running make in directory /home/yurijn/Documents/lvgl-port/build
+Executing "make -j 6 flash"...
+[  0%] Built target partition_table_bin
+[  0%] Built target _project_elf_src
+[  0%] Built target memory.ld
+[  0%] Built target custom_bundle
+[  0%] Built target sections.ld.in
+[  0%] Performing build step for 'bootloader'
+[  0%] Built target __idf_esp_https_ota
+[  3%] Built target __idf_log
+[  1%] Built target __idf_esp_http_server
+[  3%] Built target _project_elf_src
+[ 13%] Built target __idf_esp_rom
+[  1%] Built target __idf_esp_http_client
+[ 15%] Built target __idf_esp_common
+[  1%] Built target __idf_tcp_transport
+[ 23%] Built target __idf_esp_hw_support
+[  2%] Built target __idf_esp_gdbstub
+[ 25%] Built target __idf_esp_system
+[  3%] Built target __idf_esp_eth
+[ 34%] Built target __idf_efuse
+[  4%] Built target __idf_esp_adc
+[ 54%] Built target __idf_bootloader_support
+[  5%] Built target __idf_esp-tls
+[ 56%] Built target __idf_esp_bootloader_format
+[  5%] Built target __idf_http_parser
+[ 58%] Built target __idf_spi_flash
+[  5%] Built target __idf_esp_wifi
+[ 64%] Built target __idf_hal
+[  5%] Built target __idf_esp_coex
+[ 67%] Built target __idf_micro-ecc
+[ 90%] Built target __idf_soc
+[ 11%] Built target __idf_wpa_supplicant
+[ 93%] Built target __idf_xtensa
+[ 12%] Built target __idf_esp_netif
+[ 95%] Built target __idf_main
+[ 98%] Built target bootloader.elf
+[100%] Built target gen_project_binary
+[ 19%] Built target __idf_lwip
+[ 19%] Built target __idf_vfs
+Bootloader binary size 0x5250 bytes. 0x2db0 bytes (36%) free.
+[ 20%] Built target __idf_esp_phy
+[100%] Built target bootloader_check_size
+[100%] Built target app
+[ 22%] Built target __idf_nvs_flash
+[ 23%] No install step for 'bootloader'
+[ 23%] Built target __idf_esp_event
+[ 23%] Completed 'bootloader'
+[ 24%] Built target __idf_esp_timer
+[ 24%] Built target __idf_esp_common
+[ 24%] Built target bootloader
+[ 24%] Built target __idf_cxx
+[ 25%] Built target __idf_newlib
+[ 26%] Built target __idf_freertos
+[ 30%] Built target __idf_esp_hw_support
+[ 32%] Built target __idf_soc
+[ 33%] Built target __idf_heap
+[ 33%] Built target __idf_log
+[ 37%] Built target __idf_hal
+[ 38%] Built target __idf_esp_rom
+[ 41%] Built target __idf_esp_system
+[ 42%] Built target __idf_pthread
+[ 44%] Built target __idf_spi_flash
+[ 44%] Built target __idf_app_update
+[ 44%] Built target __idf_esp_partition
+[ 45%] Built target __idf_bootloader_support
+[ 45%] Built target __idf_esp_app_format
+[ 45%] Built target __idf_esp_bootloader_format
+[ 47%] Built target mbedtls
+[ 48%] Built target mbedx509
+[ 55%] Built target mbedcrypto
+[ 55%] Built target p256m
+[ 55%] Built target everest
+[ 56%] Built target __idf_mbedtls
+[ 56%] Built target __idf_esp_pm
+[ 61%] Built target __idf_driver
+[ 61%] Built target __idf_esp_mm
+[ 61%] Built target __idf_efuse
+[ 61%] Built target __idf_esp_ringbuf
+[ 62%] Built target __idf_xtensa
+[ 62%] Built target __idf_app_trace
+[ 62%] Built target __idf_unity
+[ 63%] Built target __idf_esp_lcd
+[ 64%] Built target __idf_console
+[ 64%] Built target __idf_esp_hid
+[ 65%] Built target __idf_espcoredump
+[ 65%] Built target __idf_json
+[ 65%] Built target __idf_protobuf-c
+[ 66%] Built target __idf_wear_levelling
+[ 66%] Built target __idf_sdmmc
+[ 66%] Built target __idf_perfmon
+[ 67%] Built target __idf_spiffs
+[ 67%] Built target __idf_nvs_sec_provider
+[ 68%] Built target __idf_touch_element
+[ 68%] Built target __idf_mqtt
+[ 69%] Built target __idf_cmock
+[ 70%] Built target __idf_usb
+[ 71%] Built target __idf_protocomm
+[ 72%] Built target __idf_fatfs
+[ 73%] Built target __idf_wifi_provisioning
+[ 73%] Built target __idf_esp_local_ctrl
+[ 98%] Built target __idf_lvgl
+[ 98%] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+[ 98%] Linking C static library libmain.a
+[ 98%] Built target __idf_main
+[ 98%] Generating ld/sections.ld
+[ 98%] Built target __ldgen_output_sections.ld
+[100%] Linking CXX executable lvgl-port.elf
+[100%] Built target lvgl-port.elf
+[100%] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/yurijn/Documents/lvgl-port/build/lvgl-port.bin
+[100%] Built target gen_project_binary
+lvgl-port.bin binary size 0x71eb0 bytes. Smallest app partition is 0x177000 bytes. 0x105150 bytes (70%) free.
+[100%] Built target app_check_size
+[100%] Built target app
+esptool.py --chip esp32s3 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 lvgl-port.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyACM0
+Connecting...
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded PSRAM 8MB (AP_3v3)
+Crystal is 40MHz
+MAC: 80:65:99:dd:db:18
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x00081fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 21072 bytes to 13053...
+Writing at 0x00000000... (100 %)
+Wrote 21072 bytes (13053 compressed) at 0x00000000 in 0.4 seconds (effective 396.3 kbit/s)...
+Hash of data verified.
+Compressed 466608 bytes to 273570...
+Writing at 0x00010000... (5 %)
+Writing at 0x0001bf11... (11 %)
+Writing at 0x0002599a... (17 %)
+Writing at 0x0002bda7... (23 %)
+Writing at 0x000321a9... (29 %)
+Writing at 0x0003862e... (35 %)
+Writing at 0x0003e730... (41 %)
+Writing at 0x00043eca... (47 %)
+Writing at 0x00049835... (52 %)
+Writing at 0x00050011... (58 %)
+Writing at 0x000557f0... (64 %)
+Writing at 0x0005b2a7... (70 %)
+Writing at 0x000614f9... (76 %)
+Writing at 0x0006767e... (82 %)
+Writing at 0x0006ef45... (88 %)
+Writing at 0x00076d32... (94 %)
+Writing at 0x0007d2dd... (100 %)
+Wrote 466608 bytes (273570 compressed) at 0x00010000 in 3.9 seconds (effective 969.1 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 105...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (105 compressed) at 0x00008000 in 0.1 seconds (effective 384.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+[100%] Built target flash
+Done
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3c05002ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xb (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403ce669
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2d9c
+entry 0x403c9914
+[0;32mI (26) boot: ESP-IDF v5.2.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jul 19 2024 16:40:09[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (64) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (71) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (86) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c050020 size=13d80h ( 81280) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=00023da8 vaddr=3fc97b00 size=02d24h ( 11556) load[0m
+[0;32mI (116) esp_image: segment 2: paddr=00026ad4 vaddr=40374000 size=09544h ( 38212) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=47914h (293140) map[0m
+[0;32mI (181) esp_image: segment 4: paddr=0007793c vaddr=4037d544 size=0a550h ( 42320) load[0m
+[0;32mI (198) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (199) boot: Disabling RNG early entropy source...[0m
+[0;32mI (211) cpu_start: Multicore app[0m
+[0;32mI (220) cpu_start: Pro cpu start user code[0m
+[0;32mI (220) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (220) cpu_start: Application information:[0m
+[0;32mI (223) cpu_start: Project name:     lvgl-port[0m
+[0;32mI (228) cpu_start: App version:      1[0m
+[0;32mI (233) cpu_start: Compile time:     Jul 19 2024 18:18:00[0m
+[0;32mI (239) cpu_start: ELF file SHA256:  a3fc0d392...[0m
+[0;32mI (244) cpu_start: ESP-IDF:          v5.2.2[0m
+[0;32mI (249) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (254) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (259) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (263) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (271) heap_init: At 3FCBAD30 len 0002E9E0 (186 KiB): RAM[0m
+[0;32mI (277) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (283) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (289) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (296) spi_flash: detected chip: winbond[0m
+[0;32mI (300) spi_flash: flash io: dio[0m
+[0;33mW (304) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (317) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (324) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (331) main_task: Started on CPU0[0m
+[0;32mI (341) main_task: Calling app_main()[0m
+[0;32mI (341) LOL: Initializing the Renderer...[0m
+[0;32mI (341) LOL: LVGL version [9.1][0m
+[0;32mI (351) gpio: GPIO[5]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[Warn]	(0.000, +0)	 lv_init: Style sanity checks are enabled that uses more RAM lv_init.c:240
+[0;32mI (601) LOL: Renderer Initialized.[0m
+[0;31mE (5581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (5581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (5581) task_wdt: Tasks currently running:[0m
+[0;31mE (5581) task_wdt: CPU 0: main[0m
+[0;31mE (5581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (5581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x420332A3:0x3FC98AA0 0x420336C0:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF81:0x3FCBE510 0x4200F34D:0x3FCBE530 0x4200FB4D:0x3FCBE550 0x4200FCA3:0x3FCBE580 0x4200FDA1:0x3FCBE5C0 0x4200FF9B:0x3FCBE5E0 0x420191AD:0x3FCBE600 0x42019267:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BAF:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+Executing action: flash
+Running make in directory /home/yurijn/Documents/lvgl-port/build
+Executing "make -j 6 flash"...
+[  0%] Built target partition_table_bin
+[  0%] Built target _project_elf_src
+[  0%] Built target memory.ld
+[  0%] Built target sections.ld.in
+[  0%] Built target custom_bundle
+[  0%] Performing build step for 'bootloader'
+[  0%] Built target __idf_esp_https_ota
+[  1%] Built target __idf_esp_http_server
+[  3%] Built target __idf_log
+[  3%] Built target _project_elf_src
+[  1%] Built target __idf_esp_http_client
+[ 13%] Built target __idf_esp_rom
+[ 15%] Built target __idf_esp_common
+[  1%] Built target __idf_tcp_transport
+[ 23%] Built target __idf_esp_hw_support
+[  2%] Built target __idf_esp_gdbstub
+[ 25%] Built target __idf_esp_system
+[  3%] Built target __idf_esp_eth
+[ 34%] Built target __idf_efuse
+[  4%] Built target __idf_esp_adc
+[  5%] Built target __idf_esp-tls
+[ 54%] Built target __idf_bootloader_support
+[  5%] Built target __idf_http_parser
+[ 56%] Built target __idf_esp_bootloader_format
+[  5%] Built target __idf_esp_wifi
+[ 58%] Built target __idf_spi_flash
+[  5%] Built target __idf_esp_coex
+[ 64%] Built target __idf_hal
+[ 67%] Built target __idf_micro-ecc
+[ 11%] Built target __idf_wpa_supplicant
+[ 90%] Built target __idf_soc
+[ 12%] Built target __idf_esp_netif
+[ 93%] Built target __idf_xtensa
+[ 95%] Built target __idf_main
+[ 19%] Built target __idf_lwip
+[ 98%] Built target bootloader.elf
+[ 19%] Built target __idf_vfs
+[100%] Built target gen_project_binary
+[ 20%] Built target __idf_esp_phy
+[ 22%] Built target __idf_nvs_flash
+Bootloader binary size 0x5250 bytes. 0x2db0 bytes (36%) free.
+[100%] Built target bootloader_check_size
+[ 22%] Built target __idf_esp_event
+[100%] Built target app
+[ 23%] Built target __idf_esp_timer
+[ 24%] No install step for 'bootloader'
+[ 24%] Built target __idf_esp_common
+[ 24%] Completed 'bootloader'
+[ 24%] Built target __idf_cxx
+[ 24%] Built target bootloader
+[ 25%] Built target __idf_newlib
+[ 26%] Built target __idf_freertos
+[ 30%] Built target __idf_esp_hw_support
+[ 32%] Built target __idf_soc
+[ 33%] Built target __idf_heap
+[ 33%] Built target __idf_log
+[ 37%] Built target __idf_hal
+[ 38%] Built target __idf_esp_rom
+[ 41%] Built target __idf_esp_system
+[ 42%] Built target __idf_pthread
+[ 44%] Built target __idf_spi_flash
+[ 44%] Built target __idf_app_update
+[ 44%] Built target __idf_esp_partition
+[ 45%] Built target __idf_bootloader_support
+[ 45%] Built target __idf_esp_app_format
+[ 45%] Built target __idf_esp_bootloader_format
+[ 47%] Built target mbedtls
+[ 48%] Built target mbedx509
+[ 55%] Built target mbedcrypto
+[ 55%] Built target p256m
+[ 55%] Built target everest
+[ 56%] Built target __idf_mbedtls
+[ 56%] Built target __idf_esp_pm
+[ 61%] Built target __idf_driver
+[ 61%] Built target __idf_esp_mm
+[ 61%] Built target __idf_efuse
+[ 61%] Built target __idf_esp_ringbuf
+[ 62%] Built target __idf_xtensa
+[ 62%] Built target __idf_esp_hid
+[ 62%] Built target __idf_unity
+[ 62%] Built target __idf_app_trace
+[ 63%] Built target __idf_esp_lcd
+[ 64%] Built target __idf_console
+[ 64%] Built target __idf_protobuf-c
+[ 64%] Built target __idf_sdmmc
+[ 65%] Built target __idf_wear_levelling
+[ 65%] Built target __idf_json
+[ 66%] Built target __idf_espcoredump
+[ 66%] Built target __idf_mqtt
+[ 66%] Built target __idf_nvs_sec_provider
+[ 66%] Built target __idf_perfmon
+[ 67%] Built target __idf_spiffs
+[ 68%] Built target __idf_touch_element
+[ 69%] Built target __idf_cmock
+[ 70%] Built target __idf_protocomm
+[ 71%] Built target __idf_usb
+[ 72%] Built target __idf_fatfs
+[ 97%] Built target __idf_lvgl
+[ 97%] Built target __idf_esp_local_ctrl
+[ 98%] Built target __idf_wifi_provisioning
+[ 98%] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+[0;31mE (10581) task_wdt: Task watchdog got triggered. The follESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xb (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4200ef84
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2d9c
+entry 0x403c9914
+[0;32mI (26) boot: ESP-IDF v5.2.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jul 19 2024 16:40:09[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (38) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (57) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (64) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (71) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (79) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (86) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c050020 size=13d80h ( 81280) map[0m
+[0;32mI (114) esp_image: segment 1: paddr=00023da8 vaddr=3fc97b00 size=02d24h ( 11556) load[0m
+[0;32mI (116) esp_image: segment 2: paddr=00026ad4 vaddr=40374000 size=09544h ( 38212) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=47914h (293140) map[0m
+[0;32mI (181) esp_image: segment 4: paddr=0007793c vaddr=4037d544 size=0a550h ( 42320) load[0m
+[0;32mI (198) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (199) boot: Disabling RNG early entropy source...[0m
+[0;32mI (210) cpu_start: Multicore app[0m
+[0;32mI (220) cpu_start: Pro cpu start user code[0m
+[0;32mI (220) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (220) cpu_start: Application information:[0m
+[0;32mI (223) cpu_start: Project name:     lvgl-port[0m
+[0;32mI (228) cpu_start: App version:      1[0m
+[0;32mI (233) cpu_start: Compile time:     Jul 19 2024 18:18:00[0m
+[0;32mI (239) cpu_start: ELF file SHA256:  a3fc0d392...[0m
+[0;32mI (244) cpu_start: ESP-IDF:          v5.2.2[0m
+[0;32mI (249) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (254) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (259) cpu_start: Chip rev:         v0.2[0m
+[0;32mI (263) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (271) heap_init: At 3FCBAD30 len 0002E9E0 (186 KiB): RAM[0m
+[0;32mI (277) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (283) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (289) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (296) spi_flash: detected chip: winbond[0m
+[0;32mI (300) spi_flash: flash io: dio[0m
+[0;33mW (304) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (317) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (324) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (331) main_task: Started on CPU0[0m
+[0;32mI (341) main_task: Calling app_main()[0m
+[0;32mI (341) LOL: Initializing the Renderer...[0m
+[0;32mI (341) LOL: LVGL version [9.1][0m
+[0;32mI (351) gpio: GPIO[5]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[Warn]	(0.000, +0)	 lv_init: Style sanity checks are enabled that uses more RAM lv_init.c:240
+[0;32mI (601) LOL: Renderer Initialized.[0m
+[0;31mE (5581) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (5581) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (5581) task_wdt: Tasks currently running:[0m
+[0;31mE (5581) task_wdt: CPU 0: main[0m
+[0;31mE (5581) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (5581) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x420332A3:0x3FC98AA0 0x420336C0:0x3FC98AC0 0x4037B82D:0x3FC98AF0 0x4200EF81:0x3FCBE510 0x4200F34D:0x3FCBE530 0x4200FB4D:0x3FCBE550 0x4200FCA3:0x3FCBE580 0x4200FDA1:0x3FCBE5C0 0x4200FF9B:0x3FCBE5E0 0x420191AD:0x3FCBE600 0x42019267:0x3FCBE620 0x42009172:0x3FCBE640 0x42046BAF:0x3FCBE660 0x4037FCED:0x3FCBE690
+
+Executing action: flash
+Running make in directory /home/yurijn/Documents/lvgl-port/build
+Executing "make -j 6 flash"...
+[  0%] Built target custom_bundle
+[  0%] Built target sections.ld.in
+[  0%] Built target partition_table_bin
+[  0%] Built target _project_elf_src
+[  0%] Built target memory.ld
+[  0%] Performing build step for 'bootloader'
+[  0%] Built target __idf_esp_https_ota
+[  1%] Built target __idf_esp_http_server
+[  0%] Built target _project_elf_src
+[  3%] Built target __idf_log
+[  1%] Built target __idf_esp_http_client
+[ 13%] Built target __idf_esp_rom
+[ 15%] Built target __idf_esp_common
+[  1%] Built target __idf_tcp_transport
+[  2%] Built target __idf_esp_gdbstub
+[ 23%] Built target __idf_esp_hw_support
+[ 25%] Built target __idf_esp_system
+[  3%] Built target __idf_esp_eth
+[ 34%] Built target __idf_efuse
+[  4%] Built target __idf_esp_adc
+[ 54%] Built target __idf_bootloader_support
+[  5%] Built target __idf_esp-tls
+[ 56%] Built target __idf_esp_bootloader_format
+[  5%] Built target __idf_http_parser
+[ 58%] Built target __idf_spi_flash
+[  5%] Built target __idf_esp_wifi
+[ 64%] Built target __idf_hal
+[  5%] Built target __idf_esp_coex
+[ 67%] Built target __idf_micro-ecc
+[ 11%] Built target __idf_wpa_supplicant
+[ 90%] Built target __idf_soc
+[ 93%] Built target __idf_xtensa
+[ 12%] Built target __idf_esp_netif
+[ 95%] Built target __idf_main
+[ 98%] Built target bootloader.elf
+[ 19%] Built target __idf_lwip
+[100%] Built target gen_project_binary
+[ 19%] Built target __idf_vfs
+[ 20%] Built target __idf_esp_phy
+Bootloader binary size 0x5250 bytes. 0x2db0 bytes (36%) free.
+[100%] Built target bootloader_check_size
+[ 22%] Built target __idf_nvs_flash
+[100%] Built target app
+[ 22%] Built target __idf_esp_event
+[ 23%] No install step for 'bootloader'
+[ 23%] Completed 'bootloader'
+[ 24%] Built target __idf_esp_timer
+[ 24%] Built target bootloader
+[ 24%] Built target __idf_esp_common
+[ 24%] Built target __idf_cxx
+[ 25%] Built target __idf_newlib
+[ 26%] Built target __idf_freertos
+[ 30%] Built target __idf_esp_hw_support
+[ 32%] Built target __idf_soc
+[ 33%] Built target __idf_heap
+[ 33%] Built target __idf_log
+[ 37%] Built target __idf_hal
+[ 38%] Built target __idf_esp_rom
+[ 41%] Built target __idf_esp_system
+[ 42%] Built target __idf_pthread
+[ 44%] Built target __idf_spi_flash
+[ 44%] Built target __idf_app_update
+[ 44%] Built target __idf_esp_partition
+[ 45%] Built target __idf_bootloader_support
+[ 45%] Built target __idf_esp_app_format
+[ 45%] Built target __idf_esp_bootloader_format
+[ 47%] Built target mbedtls
+[ 48%] Built target mbedx509
+[ 55%] Built target mbedcrypto
+[ 55%] Built target p256m
+[ 55%] Built target everest
+[ 56%] Built target __idf_mbedtls
+[ 56%] Built target __idf_esp_pm
+[ 61%] Built target __idf_driver
+[ 61%] Built target __idf_esp_mm
+[ 61%] Built target __idf_efuse
+[ 61%] Built target __idf_esp_ringbuf
+[ 62%] Built target __idf_xtensa
+[ 62%] Built target __idf_esp_hid
+[ 62%] Built target __idf_app_trace
+[ 63%] Built target __idf_console
+[ 63%] Built target __idf_unity
+[ 64%] Built target __idf_esp_lcd
+[ 64%] Built target __idf_protobuf-c
+[ 65%] Built target __idf_wear_levelling
+[ 65%] Built target __idf_sdmmc
+[ 65%] Built target __idf_json
+[ 66%] Built target __idf_espcoredump
+[ 66%] Built target __idf_mqtt
+[ 66%] Built target __idf_nvs_sec_provider
+[ 66%] Built target __idf_perfmon
+[ 67%] Built target __idf_spiffs
+[ 68%] Built target __idf_touch_element
+[ 69%] Built target __idf_usb
+[ 70%] Built target __idf_cmock
+[ 95%] Built target __idf_lvgl
+[ 96%] Built target __idf_protocomm
+[ 97%] Built target __idf_fatfs
+[ 97%] Built target __idf_esp_local_ctrl
+[ 98%] Built target __idf_wifi_provisioning
+[ 98%] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
