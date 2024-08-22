@@ -225,7 +225,7 @@ esp_err_t init() {
     };
 
     lv_tick_set_cb(
-        tick_get_cb);  /// D not use the default FreeRTOS option given by LVGL
+        tick_get_cb);  /// Do not use the default FreeRTOS option given by LVGL
 
     display = lv_display_create(LCD_H_RES, LCD_V_RES);
 
