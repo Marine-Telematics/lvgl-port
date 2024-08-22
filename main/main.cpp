@@ -293,7 +293,7 @@ extern "C" void app_main(void) {
         if (i == 3) i = 0;
         lv_obj_set_style_bg_color(
             scr, lv_color_make(rgb[i].r, rgb[i].g, rgb[i].b), 0);
-        del_time = lv_timer_handler_run_in_period(10);
+        del_time = lv_timer_handler();
         vTaskDelay(pdMS_TO_TICKS(del_time));
         i++;
     }
